@@ -1,0 +1,113 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    background-color: rgba(129, 139, 139, 0.562);
+}
+
+
+h1{
+    display: flex;
+    margin-top: 0;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg, red, orange, yellow, green, blue, violet);
+    color: rgba(22, 22, 22, 0.801) ;
+    height: 100px;
+    border-radius: 0.5em;
+    z-index:1;
+}
+
+
+table{
+    background-color: rgba(105, 90, 97, 0.082);
+    width: 40%;
+    height: 350px;
+    font-size: 18px;
+    border-radius: 0.5em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding:10px
+}
+
+table tr{
+    background-color: rgba(255, 255, 255, 0.603);
+    align-items: center;
+}
+
+table td{
+    text-align:center;
+    border-radius: 0.5em;
+    margin-top: 100px;
+}
+table th{
+    border-radius: 0.5em;
+    padding: 15px;
+}
+
+button{
+    background-color: rgba(87, 0, 124, 0.26);
+    height: 70px;
+    width: 40%;
+    border-radius: 0.5em;
+    border: 2px dotted gray;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+button:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(87, 0, 124, 0.623);
+}
+
+.trash:hover{
+    color: rgb(150, 30, 76);
+    background-color: rgba(0, 0, 0, 0.288);
+    border-radius: 0.5em;
+    padding: 5px;
+}
+
+#subtitulo{
+    display: flex;
+    margin: 10px 10px 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    background-color: rgba(255, 255, 255, 0.637);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    color: rgb(0, 0, 0) ;
+    height: 100px;
+    border-radius: 0.5em;
+    width: 40%;
+}
+
+#container-table{
+    display: flex;
+    justify-content: center;
+}
+#container-button{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+#botao-voltar{
+    position:absolute;
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 20px;
+    float:left;
+    z-index: 2;
+}
+#botao-voltar{
+    background-color: white;
+    border-radius: 0.5em;
+    text-decoration: none;
+    font-weight:bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: pointer;
+}
+#botao-voltar:hover{
+    color: rgb(255, 255, 255);
+    background-color: rgba(129, 139, 139, 0.562);
+}
