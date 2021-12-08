@@ -60,6 +60,12 @@ button:hover{
     background-color: rgba(87, 0, 124, 0.623);
 }
 
+button:active{
+    height: 68px;
+    width: 39%;
+
+}
+
 .trash:hover{
     color: rgb(150, 30, 76);
     background-color: rgba(0, 0, 0, 0.288);
@@ -111,3 +117,4 @@ button:hover{
     color: rgb(255, 255, 255);
     background-color: rgba(129, 139, 139, 0.562);
 }
+
