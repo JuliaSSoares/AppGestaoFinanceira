@@ -1,0 +1,72 @@
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(./img/foca\ de\ fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;    
+    margin: 0;
+}
+
+
+
+.cabecalho h1{
+    color: aliceblue;
+    font-size: 65px;
+    margin: 20px 300px 20px 350px;
+    
+}
+
+
+
+.margem {
+width: 100%;
+max-width: 100%;
+margin-left: auto;
+margin-right: auto;
+}
+
+
+
+
+.cabecalho {
+   
+    align-items: center;
+    display: flex;
+    background-color: rgba(235, 5, 131, 0.884);
+    border-radius: 8px;
+    box-shadow: inset 0 0 1em #ffd700, 0 0 1em rgb(32 235 5 / 88%);
+}
+
+
+
+
+.Login label{
+    color:rgb(155, 92, 11);
+    font-size: 40px;
+    margin-left: 300px;
+    margin: 30px 300px 30px 300px;
+}
+
+.Login input{
+    height: 120px;
+    width: 700px;
+   border-radius: 14px;
+   display: inline-flex;
+   font-size: 25px;
+   color: blueviolet;
+   margin: 20px 300px 20px 350px;
+   
+}
+
+.total{
+    height: 80px;
+    width: 400px;
+    border-radius: 14px;
+margin: 10px 0px 10px 330px;
+}
+.calendary{
+    height: 60px;
+    width: 375px;
+    border-radius: 14px;
+margin: 10px 0px 10px 350px;
+}
