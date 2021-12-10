@@ -6,8 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo Lançamento</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="estilo.css">
+=======
+    <link rel="stylesheet" href="styles.css"> 
+>>>>>>> 53da12487a0581bfee86318b057e3684abf7cfe6
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <script type="formLancamento.js" defer></script>
 </head>
 
 <body>
@@ -17,63 +22,55 @@
 
     <!-- este es la parte de arriba  -->
     <div class="cabecalho margem">
-        <h1>Novo Lançamento</h1>
-
-    </div>
-
-    <div class="Login">
-        <form class="form_Login" action="" method="post">
-            <label for=""><i class="fas fa-dollar-sign"></i></label>
-            <input type="text" placeholder="R$ 0,00 Saldo conta">
-
-
-    </div>
-
-    <div>
-
-        <label for=""><i class="fas fa-dollar-sign"></i></label>
-        <input class="total" type="text" placeholder="Valor R$ 1800,00"><br>
-
-    </div>
-
-
-    <fieldset class="calendary">
-
-        <label for="start-date">Data</label>
-
-        <input id="start-date" name="start-date" type="date" />
-    </fieldset>
-
-
-    <div class="Login">
-        <form class="form_Login" action="" method="post">
-            <label for=""><i class="fas fa-dollar-sign"></i></label>
-            <input type="text" placeholder="R$ Titulo de lançamento EX:Netflix"> <br>
-
-
+        <h1 class>Novo Lançamento</h1>
     </div>
 
 
 
-    <fieldset class="col-auto text-md-start">
-
-        <div class="form-check">
-            <input class="form-check-input" type="radio" id="search-type-random" name="search-type" value="random"
-                checked />
-
-
-            <label class="form-check-label" for="search-type-random">
-                Entrada
-            </label>
+    <form id="form">
+        <div>
+            <br>
+            <div>
+                <label for="">Título do lançamento : </label><br><br>
+                <input type="text" id='name' placeholder="R$ Ex.Netflix"> <br>
+            </div>
+            <br>
+            <label for=""><i class="fas fa-dollar-sign"></i> Valor do lançamento: </label><br><br>
+            <input id="valorLancamento" placeholder="Ex. 1800,00"><br>
         </div>
+        <br>
+        <fieldset class="calendary">
+            <label for="start-date">Data</label>
+            <input id="data" name="start-date" type="date" />
+        </fieldset>
 
-        <div class="form-check">
-            <input class="form-check-input" type="radio" name="search-type" id="search-type-date-range"
-                value="random" />
-            <label class="form-check-label" for="search-type-date-range">
-                Saida de diheiro
-            </label>
-        </div>
+
+
+
+        <fieldset class="col-auto text-md-start">
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" id="search-type-random" id="checkEntrada"
+                    name="search-type" value="random" checked />
+                <label class="form-check-label" for="search-type-random">
+                    Entrada
+                </label>
+            </div>
+
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="search-type" id="search-type-date-range"
+                    value="random" />
+                <label class="form-check-label" for="search-type-date-range">
+                    Saida de diheiro
+                </label>
+            </div>
+
+        </fieldset><br>
+
+        <input type="submit" id="send" value="Enviar">
+    </form>
+
+    <br>
 
 
 
