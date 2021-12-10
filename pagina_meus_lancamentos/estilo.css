@@ -1,14 +1,9 @@
-@font-face{
-    font-family: "raleway";
-    src: url('../raleway.ttf');
-}
-
 *{
-    font-family: 'raleway';
+    font-family: 'Open Sans', sans-serif;
 }
 
 body{
-    background-color: #f3f4f6;
+    background-color: rgba(129, 139, 139, 0.562);
 }
 
 

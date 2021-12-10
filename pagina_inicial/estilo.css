@@ -1,49 +1,13 @@
-@font-face{
-    font-family: "raleway";
-    src: url('../raleway.ttf');
+h2{
+   padding-top: 2%; 
+}
+.imagem_pagina_inicial{
+    margin: 5%;
+    height: 280px;
+    width: 342px;
 }
 
-.navbar1{
-   padding: 2%;
-   background-color: transparent;
-}
-
-.navbar-a{
-    color:black;
-}
-
-body{   
-   background: url(mulher_bg.jpg) center center no-repeat fixed; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;     
-}
-
-.titulo{
-    font-family: raleway;
-    padding-top: 80px;
-    font-size: 50px;
-    padding-left: 6%;
-    padding-right: 35%; 
-    padding-bottom: 20px;
-}
-
-.fbotao-plus{
-    font-family: raleway;
-    font-size: 18px;
-    color: black;
-    border:none;
-    cursor: pointer;
-    margin-left: 15%;
-    height: 60px;
-    width:300px;
-    line-height: 30px;
-    border-radius: 30px;
-    background: linear-gradient(135deg, red, orange, yellow, green, blue, violet);
-}
-
-.fbotao-plus:hover{
-    background: linear-gradient(135deg, red, orange, yellow, green, blue, violet);
-    opacity: 0.8;
+.logo_neon{
+    height: 35px;
+    width: 158px;
 }
