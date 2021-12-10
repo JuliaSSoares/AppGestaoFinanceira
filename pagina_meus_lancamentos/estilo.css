@@ -30,10 +30,6 @@ table{
     padding:10px
 }
 
-.table{
-    width: ;
-}
-
 table tr{
     background-color: rgba(255, 255, 255, 0.603);
     align-items: center;
@@ -69,13 +65,13 @@ button:active{
     width: 39%;
 
 }
-
+/*
 .trash:hover{
     color: rgb(150, 30, 76);
     background-color: rgba(0, 0, 0, 0.288);
     border-radius: 0.5em;
     padding: 5px;
-}
+}*/
 
 #subtitulo{
     display: flex;
