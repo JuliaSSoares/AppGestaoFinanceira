@@ -7,17 +7,6 @@ body{
 }
 
 
-h1{
-    display: flex;
-    margin-top: 0;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(45deg, red, orange, yellow, green, blue, violet);
-    color: rgba(22, 22, 22, 0.801) ;
-    height: 100px;
-    border-radius: 0.5em;
-    z-index:1;
-}
 
 
 table{
@@ -87,10 +76,6 @@ button:active{
     width: 40%;
 }
 
-#container-table{
-    display: flex;
-    justify-content: center;
-}
 #container-button{
     margin-top: 20px;
     display: flex;
