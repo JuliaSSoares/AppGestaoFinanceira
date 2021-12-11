@@ -108,3 +108,10 @@ button:active{
     background-color: rgba(129, 139, 139, 0.562);
 }
 
+.red{
+    color: red;
+}
+
+.green{
+    color: green;
+}
