@@ -19,7 +19,7 @@ body {
 form{
     background-color: rgba(105, 90, 97, 0.082);
     width: 40%;
-    height: 450px;
+    height: 480px;
     font-size: 18px;
     border-radius: 0.5em;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
@@ -59,7 +59,6 @@ form{
     border-radius: 14px;
     border-radius: 0.5em;
     height: 30px;
-    background-color: rgba(255, 255, 255, 0.164);
 }
 
 .containerCheck{
@@ -77,8 +76,11 @@ form{
     border: 2px solid rgba(0, 0, 255, 0.247);
 }
 
+#mensagemErro{
+    font-size: small;
+    color:red;
 
-
+}
 
 
 
