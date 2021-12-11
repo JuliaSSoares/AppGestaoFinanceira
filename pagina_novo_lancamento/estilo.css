@@ -1,5 +1,11 @@
+@font-face{
+    font-family: "raleway";
+    src: url('../raleway.ttf');
+}
+
+
 body {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: "raleway";
     background-color:#f3f4f6;
     background-repeat: no-repeat;
     background-size: 100%;
@@ -8,25 +14,117 @@ body {
 }
 
 
-/*
-.cabecalho h1{
-    color: aliceblue;
-    font-size: 65px;
-    margin: 20px 300px 20px 350px;
+
+
+form{
+    background-color: rgba(105, 90, 97, 0.082);
+    width: 40%;
+    height: 450px;
+    font-size: 18px;
+    border-radius: 0.5em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding:10px;
+    margin-top: 20px;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.botaoEnviar{
+    height: 50px;
+    width: 230px;
+    color: whitesmoke;
+    background-color: #290294ab;
+    border-radius: 0.75em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.botaoEnviar:hover{
+    background-color: #290294ce;
+}
+
+.botaoEnviar:ative{
+    height: 53px;
+    width: 235px;
+}
+
+.cabecalho {
+    margin: 10px 10px 10px 10px;
     
 }
-*/
 
+
+.calendary{
+    height: 60px;
+    width: 100%;
+    border-radius: 14px;
+    border-radius: 0.5em;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.164);
+}
+
+.containerCheck{
+    height: 60px;
+    width: 100%;
+    border-radius: 14px;
+}
+
+
+
+.estiloInput{
+    border-radius: 0.5em;
+    height: 35px;
+    background-color: rgba(255, 255, 255, 0.164);
+    border: 2px solid rgba(0, 0, 255, 0.247);
+}
+
+
+
+
+
+
+
+
+/* form{
+    display: flex;
+    width: 40%;
+    height: 500px;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+} */
+/* 
 
 .margem {
 width: 100%;
 max-width: 100%;
 margin-left: auto;
 margin-right: auto;
+} */
+
+
+
+
+/* 
+
+.total{
+    height: 80px;
+    width: 400px;
+    border-radius: 14px;
+}
+.Login label{
+    color:rgb(155, 92, 11);
+    font-size: 40px;
 }
 
-
-
+.Login input{
+    height: 120px;
+    width: 700px;
+    border-radius: 14px;
+    display: inline-flex;
+    font-size: 25px;
+    color: blueviolet;
+   
+}
 
 .cabecalho {
    
@@ -36,37 +134,5 @@ margin-right: auto;
     border-radius: 8px;
     box-shadow: inset 0 0 1em #ffd700, 0 0 1em rgb(32 235 5 / 88%);
 }
+ */
 
-
-
-
-.Login label{
-    color:rgb(155, 92, 11);
-    font-size: 40px;
-    margin-left: 300px;
-    margin: 30px 300px 30px 300px;
-}
-
-.Login input{
-    height: 120px;
-    width: 700px;
-   border-radius: 14px;
-   display: inline-flex;
-   font-size: 25px;
-   color: blueviolet;
-   margin: 20px 300px 20px 350px;
-   
-}
-
-.total{
-    height: 80px;
-    width: 400px;
-    border-radius: 14px;
-margin: 10px 0px 10px 330px;
-}
-.calendary{
-    height: 60px;
-    width: 375px;
-    border-radius: 14px;
-margin: 10px 0px 10px 350px;
-}

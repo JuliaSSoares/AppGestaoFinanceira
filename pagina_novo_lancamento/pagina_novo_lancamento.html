@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Novo Lançamento</title>
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="../estilo.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-    <script type="formLancamento.js" defer></script>
 </head>
 
 <body>
@@ -17,8 +17,9 @@
     <!--  div>h1{Novo Lançamento}-->
 
     <!-- este es la parte de arriba  -->
-    <div class="cabecalho margem">
-        <h1 class>Novo Lançamento</h1>
+    <div class="cabecalho">
+        <a href="" id="botao-voltar"><i class="fas fa-arrow-left"></i></a>
+        <h1 class="fundoArcoIrisTitulo"> Meus Lançamentos </h1>
     </div>
 
 
@@ -26,24 +27,27 @@
     <form id="form">
         <div>
             <br>
+            <br>
             <div>
-                <label for="">Título do lançamento : </label><br><br>
-                <input type="text" id='name' placeholder="R$ Ex.Netflix"> <br>
+                <label for="">Título do lançamento :   </label>
+                <input type="text" id='name' class="estiloInput" placeholder="Ex. Netflix" > <br>
             </div>
             <br>
-            <label for=""><i class="fas fa-dollar-sign"></i> Valor do lançamento: </label><br><br>
-            <input id="valorLancamento" placeholder="Ex. 1800,00"><br>
+            <br>
+            <label for=""><i class="fas fa-dollar-sign"></i> Valor do lançamento:   </label>
+            <input id="valorLancamento" placeholder="Ex. 1800,00" class="estiloInput"><br>
         </div>
         <br>
-        <fieldset class="calendary">
-            <label for="start-date">Data</label>
+        <br>
+        <div class="calendary">
+            <label for="start-date">Data: &nbsp;</label>
             <input id="data" name="start-date" type="date" />
-        </fieldset>
+        </div>
 
+        <br>
+        
 
-
-
-        <fieldset class="col-auto text-md-start">
+        <div class="containerCheck" >
 
             <div class="form-check">
                 <input class="form-check-input" type="radio" id="search-type-random" id="checkEntrada"
@@ -61,13 +65,13 @@
                 </label>
             </div>
 
-        </fieldset><br>
+        </div>
+        <br>
 
-        <input type="submit" id="send" value="Enviar">
+        <input type="submit" id="send" class="botaoEnviar" value="Enviar">
     </form>
 
-    <br>
-
+    <br><br>
 
 
 

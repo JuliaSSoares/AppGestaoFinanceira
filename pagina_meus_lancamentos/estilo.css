@@ -87,26 +87,6 @@ button:active{
     justify-content: center;
 }
 
-#botao-voltar{
-    position:absolute;
-    margin-top: 20px;
-    margin-left: 20px;
-    padding: 20px;
-    float:left;
-    z-index: 2;
-}
-#botao-voltar{
-    background-color: white;
-    border-radius: 0.5em;
-    text-decoration: none;
-    font-weight:bold;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    cursor: pointer;
-}
-#botao-voltar:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgba(129, 139, 139, 0.562);
-}
 
 .red{
     color: red;
