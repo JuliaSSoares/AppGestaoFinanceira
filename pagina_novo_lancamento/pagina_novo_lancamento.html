@@ -22,25 +22,25 @@
 
 
 
-    <form id="form">
+    <form id="form" method="POST">
         <div>
             <br>
             <br>
             <div>
                 <label for="">Título do lançamento :   </label>
-                <input type="text" id='titulo' class="estiloInput" placeholder="Ex. Netflix" > <br>
+                <input type="text" id='titulo' class="estiloInput" placeholder="Ex. Netflix" required > <br>
             </div>
             <br>
             <br>
             <label for=""><i class="fas fa-dollar-sign"></i> Valor do lançamento:   </label>
-            <input id="valorLancamento" placeholder="Ex. 1800,00" class="estiloInput"><p id="mensagemErro"></p>
+            <input id="valorLancamento" placeholder="Ex. 1800,00" class="estiloInput" required><p id="mensagemErro"></p>
             
         </div>
         <br>
         <br>
         <div class="calendary">
             <label for="start-date">Data: &nbsp;</label>
-            <input id="data" name="start-date" type="date" />
+            <input id="data" name="start-date" type="date" required />
         </div>
 
         <br>

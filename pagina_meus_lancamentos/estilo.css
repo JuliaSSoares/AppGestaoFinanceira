@@ -1,6 +1,6 @@
 @font-face{
     font-family: "raleway";
-    src: url('../raleway.ttf');
+    src: url('../static/raleway.ttf');
 }
 
 *{
