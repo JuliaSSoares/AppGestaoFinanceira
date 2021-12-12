@@ -1,0 +1,44 @@
+#IBGE{
+	display: none;
+}
+
+@font-face{
+    font-family: "raleway";
+    src: url('/raleway.ttf');
+}
+
+.titulo-formulario{
+	font-family: raleway;
+	font-size: 25px;
+	padding-top: 10px;
+	text-align: center;
+	text-shadow: 2px 2px #f6f2f2;
+}
+
+.main--cadastro{
+	margin-top: 40px;
+	margin-bottom: 40px;
+	background-color: rgba(0, 0, 0, 0.7);
+	border-radius: 5px;
+	padding: 20px;
+	margin-top: 2%;
+}
+.nome--campo{
+	color:whitesmoke;
+}
+.button--cadastro{
+	display: block;
+}
+
+.checkbox{
+	padding-top: 2%;
+}
+
+.navbar1{
+	padding: 2%;
+	background-color: transparent;
+ }
+ 
+ .navbar-a{
+	 color:black;
+ }

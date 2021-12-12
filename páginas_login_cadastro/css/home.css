@@ -1,0 +1,10 @@
+@media (min-width: 768px){
+.home--filmes{
+	width: 25%;
+}
+}
+@media (max-width: 767px){
+	.home--filmes{
+		max-width: 767px;
+	}
+	}
