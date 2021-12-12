@@ -1,7 +1,7 @@
 
 
-let linha = document.querySelector('tbody tr:nth-child(1)'); console.log(linha)
-const valor =  ((document.querySelector('tr:nth-child(1) td:nth-child(2)')).innerHTML).replace(",","."); console.log(valor)
+let linha = document.querySelector('tbody tr:nth-child(2)'); console.log(linha)
+const valor =  ((document.querySelector('tr:nth-child(2) td:nth-child(2)')).innerHTML).replace(",","."); console.log(valor)
 
 
 if(valor < 0){
