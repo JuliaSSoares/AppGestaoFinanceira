@@ -1,3 +1,11 @@
+@font-face{
+    font-family: "raleway";
+    src: url('../raleway.ttf');
+}
+
+*{
+    font-family: 'raleway';
+}
 
 body{   
    background: url(../imagens/01.jpg) center center no-repeat fixed; 
@@ -6,3 +14,47 @@ body{
    -o-background-size: cover;
    background-size: cover;     
 }
+
+h1{
+    color: whitesmoke;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    backdrop-filter: blur(6px);
+    border-radius: 1em;
+    padding: 15px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+
+.container-item{
+    text-shadow: black 0.1em 0.1em 0.2em;
+    backdrop-filter: blur(6px);
+    border-radius: 1em;
+    padding: 5px;
+    padding-top: 20px;
+    margin: 10px 10px;
+    text-align: center;
+    font-size: 9px;
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive
+}
+.config-badges{
+    max-height: 25px;
+    max-width: 100px;
+    border-radius: 0.5rem;
+    margin: 5px;
+}
+
+
+
+.fotos{
+    width: 150px;
+    height: 150px;
+    border-radius: 100em;
+    overflow:hidden 
+}
+

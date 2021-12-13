@@ -10,7 +10,7 @@
     margin-top: 0;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, red, orange, yellow, green, blue, violet);
+    background: linear-gradient(135deg, red, orange, yellow, green, blue, violet);
     color: rgba(22, 22, 22, 0.801) ;
     height: 100px;
     border-radius: 0.5em;
