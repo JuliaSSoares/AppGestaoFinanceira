@@ -59,6 +59,7 @@ h1{
     width: 175px;
     height: 175px;
     border-radius: 100em;
-    overflow:hidden 
+    overflow:hidden ;
+    box-shadow: rgba(0, 0, 0, 0.623) 0.5em 0.5em 0.5em;
 }
 
