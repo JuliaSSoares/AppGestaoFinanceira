@@ -1,7 +1,12 @@
+
+
+
 @font-face{
     font-family: "raleway";
     src: url('../raleway.ttf');
 }
+
+
 
 *{
     font-family: 'raleway';
@@ -39,12 +44,11 @@ h1{
     margin: 10px 10px;
     text-align: center;
     font-size: 9px;
-    color: whitesmoke;
+    color: rgb(0, 9, 128);
     font-family: 'Bebas Neue', cursive
 }
 .config-badges{
-    max-height: 25px;
-    max-width: 100px;
+    max-height: 35px;
     border-radius: 0.5rem;
     margin: 5px;
 }
@@ -52,8 +56,8 @@ h1{
 
 
 .fotos{
-    width: 150px;
-    height: 150px;
+    width: 175px;
+    height: 175px;
     border-radius: 100em;
     overflow:hidden 
 }
