@@ -14,11 +14,15 @@ body{
 
 h1{
     width: 60%;
-    margin-left: 20%;
+    margin-left: 30%;
     font-weight: bold !important;
     color: rgb(253, 253, 253) !important;
     text-shadow: black 0.1em 0.1em 0.2em;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+h2{
+    font-weight: bold;
 }
 
 

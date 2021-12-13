@@ -12,15 +12,16 @@
     justify-content: center;
     background: linear-gradient(135deg, red, orange, yellow, green, blue, violet);
     color: rgba(22, 22, 22, 0.801) ;
-    height: 100px;
+    height: 80px;
+    width: 40%;
     border-radius: 0.5em;
     z-index:1;
 }
 
 #botao-voltar{
     position:absolute;
-    margin-top: 12px;
-    margin-left: 20%;
+    margin-top: 3px;
+    margin-left: 30%;
     padding: 20px;
     font-size: 25px;
     float:left;

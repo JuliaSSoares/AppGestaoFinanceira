@@ -23,7 +23,7 @@ body{
 .fbotao-plus{
     font-family: raleway;
     font-size: 18px;
-    color: black;
+    color: rgb(255, 255, 255);
     border:none;
     cursor: pointer;
     margin-left: 15%;
@@ -33,6 +33,8 @@ body{
     border-radius: 20px;
     background: linear-gradient(135deg, red, orange, yellow, green, blue, violet);
     margin-bottom: 16%;
+    text-shadow: rgba(0, 0, 0, 0.849) 0.1em 0.1em 0.2em;
+    box-shadow: rgba(0, 0, 0, 0.623) 0.2em 0.2em 0.2em;
 }
 
 .fbotao-plus:hover{
