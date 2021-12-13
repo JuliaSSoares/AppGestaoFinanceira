@@ -8,8 +8,17 @@
 }
 
 body{
-    background-color: #e7d8d8;
+    background-color:#ebe3e3 !important ;
     
+}
+
+h1{
+    width: 60%;
+    margin-left: 20%;
+    font-weight: bold !important;
+    color: rgb(253, 253, 253) !important;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 
@@ -28,35 +37,42 @@ table{
 table tr{
     background-color: rgba(255, 255, 255, 0.603);
     align-items: center;
-
+    text-align:center;
+    
+    
 }
 
 table td{
     text-align:center;
     border-radius: 0.5em;
-
+    background-color: rgba(255, 255, 255, 0.671);
+    
 }
 table th{
     border-radius: 0.5em;
-    padding: 15px;
+    padding: 20px 20px 20px;
+    
 }
 
-button{
-    background-color: rgba(87, 0, 124, 0.26);
+#botao_novo_lancamento{
+    color: rgb(255, 255, 255);
+    background-color: rgba(87, 0, 124, 0.514);
     height: 70px;
     width: 40%;
     border-radius: 0.5em;
-    border: 2px dotted gray;
+    border: 2px dotted rgb(114, 114, 114);
     font-size: 20px;
+    font-weight: bold;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-shadow: rgba(0, 0, 0, 0.226) 0.1em 0.1em 0.2em;
 }
 
-button:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgba(87, 0, 124, 0.623);
+#botao_novo_lancamento:hover{
+    color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(87, 0, 124, 0.26);
 }
 
-button:active{
+#botao_novo_lancamento:active{
     height: 68px;
     width: 39%;
 
@@ -74,21 +90,16 @@ button:active{
     margin: 10px 10px 10px;
     align-items: center;
     justify-content: center;
-    margin-left: 30%;
     background-color: rgba(255, 255, 255, 0.637);
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     color: rgb(0, 0, 0) ;
-    height: 100px;
+    height: 70px;
     border-radius: 0.5em;
-    width: 40%;
+    margin-left: 35%;
+    width: 30%;
 }
 
 
-#informacoes_usuario{
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.25em;
-}
 
 #container-button{
     margin-top: 20px;
