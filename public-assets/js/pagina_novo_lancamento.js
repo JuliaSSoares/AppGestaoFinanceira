@@ -2,7 +2,6 @@ const btn = document.querySelector("#send");
 
 btn.addEventListener("click", function(event){
 
-    event.preventDefault();
 
     const selecionaTitulo = document.querySelector("#titulo");
     const selecionaValor = document.querySelector("#valorLancamento");
@@ -14,24 +13,30 @@ btn.addEventListener("click", function(event){
     const data = selecionaData.value;
 
 
-    validaVazio(titulo, valor, data);
-    validaNumero(valor)
+    validaVazio(event, titulo, valor, data);
+    validaNumero(event, valor)
 
 })
 
 
-function validaVazio(titulo, valor, data){
+function validaVazio(event, titulo, valor, data){
     if(titulo.length == 0 || 
         valor.length == 0 ||
         data.length == 0 ){
+            preventDefault(event);
         return alert("Por favor preencha TODOS os campos antes de enviar!")
     }else { return }
 }
 
-function validaNumero(valor){
+function validaNumero(event, valor){
     if(isNaN(valor)){
+            preventDefault(event);
         return valorInvalido()
     }
+}
+
+function preventDefault(event){
+    event.preventDefault();
 }
 
 
