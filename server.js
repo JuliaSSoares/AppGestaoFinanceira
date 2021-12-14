@@ -12,7 +12,7 @@ app.engine("html", require("hbs").__express)
 app.set("views", __dirname + "/src") //indica qual o diretório
 
 //CONFIGURAÇÃO DOS CONTEÚDOS ESTÁTICOS
-app.use(express.static(__dirname + "/public-assets"))
+app.use(express.static( __dirname + "/public-assets"))
 
 //Rotas da aplicação
 app.get('/', (req, res) => res.render("../index"))
