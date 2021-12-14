@@ -37,6 +37,7 @@ h1{
 
 .container-item{
     text-shadow: black 0.1em 0.1em 0.2em;
+    /* background-color: rgba(0, 0, 0, 0.199); */
     backdrop-filter: blur(6px);
     border-radius: 1em;
     padding: 5px;
@@ -47,6 +48,7 @@ h1{
     color: rgb(0, 9, 128);
     font-family: 'Bebas Neue', cursive
 }
+
 .config-badges{
     max-height: 35px;
     border-radius: 0.5rem;

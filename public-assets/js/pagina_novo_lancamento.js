@@ -2,8 +2,7 @@ const btn = document.querySelector("#send");
 
 btn.addEventListener("click", function(event){
 
-
-
+    
     const selecionaTitulo = document.querySelector("#titulo");
     const selecionaValor = document.querySelector("#valorLancamento");
     const selecionaData = document.querySelector("#data");
@@ -47,8 +46,8 @@ function valorInvalido(){
     selcionaErro.innerText = ("Valor inválido!");
 }
 
-function positivoNegativo(valor){
-    if( ){
+// function positivoNegativo(valor){
+//     if( ){
 
-    }
-}
+//     }
+// }
