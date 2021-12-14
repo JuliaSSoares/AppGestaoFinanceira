@@ -1,23 +1,33 @@
 @font-face{
-    font-family: "raleway";
+    font-family: "raleway" ;
     src: url('../raleway.ttf');
 }
 
 
+
+
 body {
-    font-family: "raleway";
-    background-color:#f3f4f6;
+    font-family: "raleway"  !important;
+    background-color:#ebe3e3 !important ;
     background-repeat: no-repeat;
     background-size: 100%;
     background-attachment: fixed;    
     margin: 0;
 }
 
+h1{
+    width: 60%;
+    margin-left: 30%;
+    font-weight: bold !important;
+    color: rgb(253, 253, 253) !important;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
 
 
 
 form{
-    background-color: rgba(105, 90, 97, 0.082);
+    background-color:rgba(255, 255, 255, 0.671);;
     width: 60%;
     height: 480px;
     font-size: 18px;
@@ -30,21 +40,27 @@ form{
 }
 
 .botaoEnviar{
+    color: rgb(255, 255, 255);
+    background-color: rgba(87, 0, 124, 0.514);
     height: 50px;
-    width: 230px;
-    color: whitesmoke;
-    background-color: #290294ab;
-    border-radius: 0.75em;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
+    width: 40%;
+    border-radius: 0.5em;
+    border: 0;
+    font-size: 20px;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-shadow: rgba(0, 0, 0, 0.226) 0.1em 0.1em 0.2em;
 }
+
 
 .botaoEnviar:hover{
-    background-color: #290294ce;
+    color: rgba(0, 0, 0, 0.568);
+    background-color: rgba(87, 0, 124, 0.26);
 }
 
-.botaoEnviar:ative{
-    height: 53px;
-    width: 235px;
+.botaoEnviar:active{
+    height: 48px;
+    width: 39%;
 }
 
 .cabecalho {
@@ -80,11 +96,6 @@ form{
     font-size: small;
     color:red;
 
-}
-#informacoes_usuario{
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.25em;
 }
 
 
