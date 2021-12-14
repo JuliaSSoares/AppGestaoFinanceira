@@ -23,20 +23,16 @@ function validaVazio(event, titulo, valor, data){
     if(titulo.length == 0 || 
         valor.length == 0 ||
         data.length == 0 ){
-            preventDefault(event);
+            event.preventDefault();
         return alert("Por favor preencha TODOS os campos antes de enviar!")
     }else { return }
 }
 
 function validaNumero(event, valor){
     if(isNaN(valor)){
-            preventDefault(event);
+            event.preventDefault
         return valorInvalido()
     }
-}
-
-function preventDefault(event){
-    event.preventDefault();
 }
 
 
@@ -52,3 +48,5 @@ function valorInvalido(){
 
 //     }
 // }
+
+

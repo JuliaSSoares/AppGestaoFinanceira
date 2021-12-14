@@ -49,11 +49,11 @@
 				<div class="row">
 					<div class="form-group col">
 						<label for="textNome" class="control-label nome--campo">Nome</label>
-						<input id="textNome" class="form-control" placeholder="Digite seu Nome" type="text" required>
+						<input id="textNome" class="form-control" placeholder="Digite seu Nome" name="nome" type="text" required>
 					</div>
 					<div class="form-group col-auto">
 						<label for="cpf" class="control-label nome--campo">CPF</label>
-						<input id="cpf" name="cpf" class="form-control" placeholder="Digite seu CPF" type="text" pattern="[0-9]" maxlength="11" onblur="formataCPF(this)" required>
+						<input id="cpf" name="cpf" class="form-control" placeholder="Digite seu CPF" type="text" pattern="[0-9.-]{14}"  maxlength="11" onblur="formataCPF(this)" required>
 						<div id="cpf-validation" class="invalid-feedback">Verifique o CPF informado.</div>       
 						<div id="cpf-validation" class="valid-feedback">CPF válido.</div> 
 					</div>
@@ -68,7 +68,7 @@
 				
 				<div class="row">
 					<div class="form-group col">
-					<label for="inputPassword" class="control-label nome--campo">Senha</label>
+					<label for="inputPassword" name="senha" class="control-label nome--campo">Senha</label>
 					<input type="password" class="form-control" id="password" placeholder="Digite sua senha"  
 						data-minlength="6" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Mínimo de 8 dígitos, 1 maiúsculo e 1 caractere especial."
 						required>
@@ -137,8 +137,6 @@
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>    
 		<script src="../public-assets/js/validacpf.js"></script>
 		<script src="../public-assets/js/validador.js"></script>
-		<script src="../public-assets/js/viacep.js"></script>
-		<script src="../public-assets/js/viacep.js"></script>
 		<script src="https://kit.fontawesome.com/03c3e7eb25.js" crossorigin="anonymous"></script>
 	</body>
 </html>
