@@ -42,6 +42,8 @@ function valorInvalido(){
     selcionaErro.innerText = ("Valor inválido!");
 }
 
+
+
 // function positivoNegativo(valor){
 //     if( ){
 
