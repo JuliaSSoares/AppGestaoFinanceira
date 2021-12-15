@@ -1,5 +1,6 @@
 const btn = document.querySelector("#send");
 
+
 btn.addEventListener("click", function(event){
 
 
@@ -16,7 +17,10 @@ btn.addEventListener("click", function(event){
     validaVazio(event, titulo, valor, data);
     validaNumero(event, valor)
 
+
 })
+
+
 
 
 function validaVazio(event, titulo, valor, data){
@@ -30,11 +34,10 @@ function validaVazio(event, titulo, valor, data){
 
 function validaNumero(event, valor){
     if(isNaN(valor)){
-            event.preventDefault
+             event.preventDefault();
         return valorInvalido()
     }
 }
-
 
 function valorInvalido(){
     const selecionaMensagem = document.querySelector('#mensagemErro');
@@ -43,10 +46,14 @@ function valorInvalido(){
     selcionaErro.innerText = ("Valor inválido!");
 }
 
-// function positivoNegativo(valor){
-//     if( ){
 
-//     }
+// function checkNegativo(){
+//     let checkbox = document.getElementById('checkSaida');
+
+//     if(checkbox.checked) {
+//         console.log("O cliente marcou o checkbox");
+//     } else {
+//         console.log("O cliente não marcou o checkbox");
+//     };
 // }
-
 

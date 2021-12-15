@@ -61,12 +61,12 @@
             <br>
             <div>
                 <label for="">Título do lançamento :   </label>
-                <input type="text" id='titulo' class="estiloInput" placeholder="Ex. Netflix" required > <br>
+                <input type="text" id='titulo' class="estiloInput" name="titulo" placeholder="Ex. Netflix" required > <br>
             </div>
             <br>
             <br>
             <label for=""><i class="fas fa-dollar-sign"></i> Valor do lançamento:   </label>
-            <input id="valorLancamento" placeholder="Ex. 1800,00" class="estiloInput" required><p id="mensagemErro"></p>
+            <input id="valorLancamento" placeholder="Ex. 1800,00" class="estiloInput" name="valor" required><p id="mensagemErro"></p>
             
         </div>
         <br>
@@ -90,7 +90,7 @@
             </div>
 <!-- class="form-check" class="form-check-input"class="form-check-label" class="form-check-label" class="form-check-input"-->
             <div > 
-                <input  type="radio" name="search-type" id="search-type-date-range"
+                <input  type="radio" name="search-type" name="saida" id="search-type-date-range" id="checkSaida"
                     value="random" />
                 <label  for="search-type-date-range">
                     Saida
@@ -102,6 +102,7 @@
 
         <input type="submit" id="send" class="botaoEnviar" value="Enviar">
     </form>
+
 
     <br><br><br>
 
