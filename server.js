@@ -1,6 +1,6 @@
 //IMPORTAÇÕES 
 const express = require('express') //chamando o express
-
+const routers = require('./src/routers')
 
 //INSTÂNCIA DO FRAMEWORK EXPRESS
 const app = express() 
@@ -15,12 +15,7 @@ app.set("views", __dirname + "/src/views") //indica qual o diretório
 app.use(express.static( __dirname + "/public-assets"))
 
 //Rotas da aplicação
-app.get('/', (req, res) => res.render("../../index"))
-app.get('/cadastro', (req, res) => res.render("cadastro"))
-app.get('/login', (req, res) => res.render("login"))
-app.get('/novo_lancamento', (req, res) => res.render("novo_lancamento"))
-app.get('/meus_lancamentos', (req, res) => res.render("meus_lancamentos"))
-
+app.use(routers)
 
 //Definindo a porta 3000 como porta de escuta
 app.listen(3000, () => console.log("servidor rodando na porta 3000"))
