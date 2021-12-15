@@ -20,7 +20,7 @@ const db = new sqlite.Database(
 
 
 
-router.get('/', (req, res) => res.render("../index"))
+router.get('/', (req, res) => res.render("/index"))
 router.get('/cadastro', (req, res) => res.render("cadastro"))
 router.get('/login', (req, res) => res.render("login"))
 router.post('/novo_lancamento', (req, res) => res.render("novo_lancamento"))
