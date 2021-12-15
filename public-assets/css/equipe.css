@@ -1,0 +1,70 @@
+
+
+
+@font-face{
+    font-family: "raleway";
+    src: url('../raleway.ttf');
+}
+
+
+
+*{
+    font-family: 'raleway';
+}
+
+body{   
+   background: url(../imagens/03.jpg) center center no-repeat fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;     
+}
+
+h1{
+    color: whitesmoke;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    backdrop-filter: blur(6px);
+    border-radius: 1em;
+    padding: 15px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.alinha-itens{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container-item{
+    text-shadow: rgba(0, 0, 0, 0.801) 0.1em 0.1em 0.2em;
+    backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.11);
+    border-radius: 1em;
+    padding: 35px;
+    margin: 10px 10px;
+    width: 300px;
+    text-align: center;
+    font-size: 9px;
+    color: rgb(0, 9, 128);
+    font-family: 'Bebas Neue', cursive
+}
+.config-badges{
+    max-height: 35px;
+    border-radius: 0.5rem;
+    margin: 5px;
+}
+
+
+
+.fotos{
+    width: 175px;
+    height: 175px;
+    border-radius: 100em;
+    overflow:hidden ;
+    box-shadow: rgba(0, 0, 0, 0.623) 0.5em 0.5em 0.5em;
+}
+

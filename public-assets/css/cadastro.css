@@ -1,14 +1,24 @@
-/* #IBGE{
-	display: none;
-} */
-
 @font-face{
     font-family: "raleway";
-    src: url('/raleway.ttf');
+    src: url('../raleway.ttf');
+}
+
+body{   
+   background: url(../imagens/02.jpg) center center no-repeat fixed; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover; 
+   font-family: "raleway" !important; 
+}
+
+header{
+    margin-top: 1%;
+    margin-left: 1%;
 }
 
 .titulo-formulario{
-	font-family: raleway;
+	font-family: "raleway" ;
 	font-size: 25px;
 	padding-top: 10px;
 	text-align: center;
@@ -17,7 +27,7 @@
 
 .main--cadastro{
 	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 80px;
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 5px;
 	padding: 20px;
@@ -34,11 +44,4 @@
 	padding-top: 2%;
 }
 
-.navbar1{
-	padding: 2%;
-	background-color: transparent;
- }
- 
- .navbar-a{
-	 color:black;
- }
+

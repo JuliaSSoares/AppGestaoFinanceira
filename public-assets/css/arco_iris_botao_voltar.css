@@ -10,31 +10,40 @@
     margin-top: 0;
     align-items: center;
     justify-content: center;
-    background: linear-gradient(45deg, red, orange, yellow, green, blue, violet);
+    background: linear-gradient(135deg, red, orange, yellow, green, blue, violet);
     color: rgba(22, 22, 22, 0.801) ;
-    height: 100px;
+    height: 80px;
+    width: 40%;
     border-radius: 0.5em;
     z-index:1;
 }
 
 #botao-voltar{
     position:absolute;
-    margin-top: 20px;
-    margin-left: 20px;
+    margin-top: 0px;
+    margin-left: 30%;
     padding: 20px;
+    font-size: 25px;
     float:left;
     z-index: 2;
 }
 #botao-voltar{
-    background-color: white;
-    border-radius: 0.5em;
+    color: white;
+    text-shadow: rgba(0, 0, 0, 0.582) 0.1em 0.1em 0.2em;
     text-decoration: none;
     font-weight:bold;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     cursor: pointer;
 }
 #botao-voltar:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgba(129, 139, 139, 0.562);
+    color: rgba(255, 255, 255, 0.301);
+
 }
 
+#informacoes_usuario{
+    font-size: 25px;
+    text-shadow: rgb(110, 110, 110) 0.1em 0.1em 0.2em;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.50em;
+    color: rgba(0, 0, 0, 0.575);
+}

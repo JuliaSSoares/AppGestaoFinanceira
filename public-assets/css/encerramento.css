@@ -1,0 +1,29 @@
+@font-face{
+    font-family: "raleway";
+    src: url('../raleway.ttf');
+}
+
+*{
+    font-family: 'raleway';
+}
+
+.texto-obrigado{
+    margin-top: 2%;
+    font-size: 40px;
+}
+
+.texto-obrigadoa{
+    font-size: 20px;
+}
+
+.imagem_pagina_inicial{
+    margin: 3%;
+    height: 280px;
+    width: 342px;
+}
+
+.logo_neon{
+    height: 35px;
+    width: 158px;
+    margin-bottom: 5%;
+}
