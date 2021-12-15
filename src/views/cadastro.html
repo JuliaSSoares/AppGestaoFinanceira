@@ -44,7 +44,7 @@
 	<p class="titulo-formulario"><b><i>Formulário de Cadastro</i></b>🌈</p>
 
 		<main class="main--cadastro mx-auto w-50">
-			<form id="formExemplo" data-toggle="validator" role="form">
+			<form id="formExemplo" data-toggle="validator" role="form" method="post" action="/cadastro">
 				<div class="row">
 					<div class="form-group col">
 						<label for="textNome" class="control-label nome--campo">Nome</label>
@@ -52,7 +52,7 @@
 					</div>
 					<div class="form-group col-auto">
 						<label for="cpf" class="control-label nome--campo">CPF</label>
-						<input id="cpf" name="cpf" class="form-control" placeholder="Digite seu CPF" type="text" pattern="[0-9]" maxlength="11" onblur="formataCPF(this)" required>
+						<input id="cpf" name="cpf" class="form-control" placeholder="Digite seu CPF" type="text" pattern="[0-9]" maxlength="11" >
 						<div id="cpf-validation" class="invalid-feedback">Verifique o CPF informado.</div>       
 						<div id="cpf-validation" class="valid-feedback">CPF válido.</div> 
 					</div>
