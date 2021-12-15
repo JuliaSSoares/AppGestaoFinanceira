@@ -1,4 +1,8 @@
 /* html, */
+@font-face{
+    font-family: "raleway";
+    src: url('../raleway.ttf');
+}
 
 body {
   /* min-height: 100%; */
@@ -8,7 +12,8 @@ body {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;  
+  background-size: cover; 
+  font-family: "raleway" !important; 
 }
 
 main {
