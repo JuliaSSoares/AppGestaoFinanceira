@@ -1,6 +1,6 @@
 @font-face{
     font-family: "raleway";
-    src: url('/raleway.ttf');
+    src: url('../raleway.ttf');
 }
 
 body{   
@@ -8,7 +8,8 @@ body{
    -webkit-background-size: cover;
    -moz-background-size: cover;
    -o-background-size: cover;
-   background-size: cover;     
+   background-size: cover; 
+   font-family: "raleway" !important;    
 }
 
 header{
@@ -26,7 +27,7 @@ header{
 
 .main--cadastro{
 	margin-top: 40px;
-	margin-bottom: 40px;
+	margin-bottom: 80px;
 	background-color: rgba(0, 0, 0, 0.7);
 	border-radius: 5px;
 	padding: 20px;

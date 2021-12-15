@@ -19,7 +19,6 @@
     width: 100px;
     line-height: 0px;
     border-radius: 20px;
-	margin-left: 700%;
 	margin-right: 5%;
     background: rgb(13, 110, 253);
 }
@@ -27,4 +26,25 @@
 .botao-login:hover{
     background: rgb(13, 110, 253);
     opacity: 0.8;
+}
+
+.botao-sair{
+    color: rgb(255, 255, 255);
+    border:none;
+    cursor: pointer;
+    height: 35px;
+    width: 100px;
+    line-height: 0px;
+    border-radius: 20px;
+	margin-right: 5%;
+    background: rgb(235, 45, 11);
+}
+
+.botao-sair:hover{
+    background: rgb(235, 45, 11);
+    opacity: 0.8;
+}
+
+.alinhamento{
+    text-align: right;
 }

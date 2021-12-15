@@ -58,18 +58,15 @@
     <form id="form" method="POST">
         <div>
             <br>
-            <br>
             <div>
                 <label for="">Título do lançamento :   </label>
-                <input type="text" id='titulo' class="estiloInput" placeholder="Ex. Netflix" required > <br>
+                <input type="text" id='titulo' class="estiloInput" name="titulo" placeholder="Ex. Netflix" required > <br>
             </div>
             <br>
-            <br>
             <label for=""><i class="fas fa-dollar-sign"></i> Valor do lançamento:   </label>
-            <input id="valorLancamento" placeholder="Ex. 1800,00" class="estiloInput" required><p id="mensagemErro"></p>
+            <input id="valorLancamento" placeholder="Ex. 1800,00" class="estiloInput" name="valor" required><p id="mensagemErro"></p>
             
         </div>
-        <br>
         <br>
         <div class="calendary">
             <label for="start-date">Data: &nbsp;</label>
@@ -81,29 +78,29 @@
 
         <div class="containerCheck" >
 
+            <p>Selecione se será entrada ou saída (uma opção):</p>
+            
             <div>
-                <input type="radio" id="search-type-random" id="checkEntrada"
-                    name="search-type" value="random" checked />
-                <label  for="search-type-random">
+                <input type="checkbox" 
+                    name="tipo" value="entrada" checked />
+                <label  for="entrada">
                     Entrada
                 </label>
             </div>
-<!-- class="form-check" class="form-check-input"class="form-check-label" class="form-check-label" class="form-check-input"-->
             <div > 
-                <input  type="radio" name="search-type" id="search-type-date-range"
-                    value="random" />
-                <label  for="search-type-date-range">
-                    Saida
+                <input  type="checkbox" name="tipo" 
+                    value="saida" />
+                <label  for="saida">
+                    Saída
                 </label>
             </div>
-
         </div>
-        <br>
+        <br><br><br>
 
         <input type="submit" id="send" class="botaoEnviar" value="Enviar">
     </form>
 
-    <br><br><br>
+    <br><br>
 
     <footer>
         <div class="container-footer1">
@@ -119,5 +116,7 @@
 
 
 </body>
+
+
 
 </html>
