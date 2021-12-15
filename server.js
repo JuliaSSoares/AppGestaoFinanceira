@@ -1,4 +1,5 @@
 //IMPORTAÇÕES 
+const bodyParser = require('body-parser')
 const express = require('express') //chamando o express
 const routers = require('./src/routers')
 
@@ -13,6 +14,9 @@ app.set("views", __dirname + "/src/views") //indica qual o diretório
 
 //CONFIGURAÇÃO DOS CONTEÚDOS ESTÁTICOS
 app.use(express.static( __dirname + "/public-assets"))
+
+//CONFIGURAR O REQUEST BODY
+app.use(bodyParser.urlencoded({extended: true}))
 
 //Rotas da aplicação
 app.use(routers)
