@@ -19,6 +19,7 @@ h1{
     color: rgb(253, 253, 253) !important;
     text-shadow: black 0.1em 0.1em 0.2em;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
+    text-align: center;
 }
 
 h2{
