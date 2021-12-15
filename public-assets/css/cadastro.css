@@ -9,7 +9,7 @@ body{
    -moz-background-size: cover;
    -o-background-size: cover;
    background-size: cover; 
-   font-family: "raleway" !important;    
+   font-family: "raleway" !important; 
 }
 
 header{
@@ -43,3 +43,5 @@ header{
 .checkbox{
 	padding-top: 2%;
 }
+
+

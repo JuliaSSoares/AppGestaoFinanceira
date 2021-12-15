@@ -34,14 +34,19 @@ h1{
     
 }
 
+.alinha-itens{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .container-item{
-    text-shadow: black 0.1em 0.1em 0.2em;
+    text-shadow: rgba(0, 0, 0, 0.801) 0.1em 0.1em 0.2em;
     backdrop-filter: blur(6px);
+    background-color: rgba(0, 0, 0, 0.11);
     border-radius: 1em;
-    padding: 5px;
     padding: 35px;
     margin: 10px 10px;
+    width: 300px;
     text-align: center;
     font-size: 9px;
     color: rgb(0, 9, 128);
