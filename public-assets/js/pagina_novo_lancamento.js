@@ -48,6 +48,5 @@ function valorInvalido(){
 
 
 
-// function positivoNegativo(valor){
-//     if( ){
+
 
