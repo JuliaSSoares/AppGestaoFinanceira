@@ -63,7 +63,7 @@ table th{
     color: rgb(255, 255, 255);
     background-color: rgba(87, 0, 124, 0.514);
     height: 70px;
-    width: 40%;
+    width: 500px;
     border-radius: 0.5em;
     border: 2px dotted rgb(114, 114, 114);
     font-size: 20px;
@@ -78,8 +78,9 @@ table th{
 }
 
 #botao_novo_lancamento:active{
-    height: 68px;
-    width: 39%;
+    height: 69px;
+    width: 498px;
+
 
 }
 /*
@@ -110,6 +111,10 @@ table th{
     margin-top: 20px;
     display: flex;
     justify-content: center;
+}
+
+#lancamento_botao{
+    text-decoration: none;
 }
 
 
