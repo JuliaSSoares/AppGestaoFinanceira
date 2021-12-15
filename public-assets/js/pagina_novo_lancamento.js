@@ -47,13 +47,3 @@ function valorInvalido(){
 }
 
 
-// function checkNegativo(){
-//     let checkbox = document.getElementById('checkSaida');
-
-//     if(checkbox.checked) {
-//         console.log("O cliente marcou o checkbox");
-//     } else {
-//         console.log("O cliente não marcou o checkbox");
-//     };
-// }
-

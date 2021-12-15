@@ -14,35 +14,37 @@
     <script src="../public-assets/js/pagina_novo_lancamento.js" defer ></script>
     <link rel="stylesheet" href="../public-assets/css/footer.css">
     <link rel="stylesheet" href="../public-assets/css/navbar.css">
-    <link rel="shortcut icon" type="image/x-icon" href="../public-assets/imagens/favicon.png">
+
 </head>
 
 <body>
-    <header class= "navbar1">
-        <nav id="transparencia" class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="../index.html">
-            <img src="../public-assets/imagens/logo_neon_lgbt.png" alt="" width="130" height="29" class="d-inline-block align-text-top">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="novo_lancamento.html">Novo Lançamento</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="meus_lacamentos.html">Meus Lançamentos</a>
-              </li>
-            </ul>
-          </div>
-          <div class="alinhamento">
-            <a href="encerramento.html"><button class="botao-sair"><b>Sair</b></button></a>
-          </div>
-        </div>
-      </nav>
-</header>
+        <header class="navbar1">
+            <nav id="transparencia" class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">
+                        <img src="../public-assets/imagens/logo_neon_lgbt.png" alt="" width="130" height="29"
+                            class="d-inline-block align-text-top">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Cadastro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Equipe</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
     <div>
         <a href="" id="botao-voltar"><i class="fas fa-arrow-alt-circle-left"></i></a>
         <h1 class="fundoArcoIrisTitulo"> Novo Lançamento </h1><br>
@@ -56,18 +58,15 @@
     <form id="form" method="POST">
         <div>
             <br>
-            <br>
             <div>
                 <label for="">Título do lançamento :   </label>
                 <input type="text" id='titulo' class="estiloInput" name="titulo" placeholder="Ex. Netflix" required > <br>
             </div>
             <br>
-            <br>
             <label for=""><i class="fas fa-dollar-sign"></i> Valor do lançamento:   </label>
             <input id="valorLancamento" placeholder="Ex. 1800,00" class="estiloInput" name="valor" required><p id="mensagemErro"></p>
             
         </div>
-        <br>
         <br>
         <div class="calendary">
             <label for="start-date">Data: &nbsp;</label>
@@ -79,30 +78,29 @@
 
         <div class="containerCheck" >
 
+            <p>Selecione se será entrada ou saída (uma opção):</p>
+            
             <div>
-                <input type="radio" id="search-type-random" id="checkEntrada"
-                    name="search-type" value="random" checked />
-                <label  for="search-type-random">
+                <input type="checkbox" 
+                    name="tipo" value="entrada" checked />
+                <label  for="entrada">
                     Entrada
                 </label>
             </div>
-<!-- class="form-check" class="form-check-input"class="form-check-label" class="form-check-label" class="form-check-input"-->
             <div > 
-                <input  type="radio" name="search-type" name="saida" id="search-type-date-range" id="checkSaida"
-                    value="random" />
-                <label  for="search-type-date-range">
-                    Saida
+                <input  type="checkbox" name="tipo" 
+                    value="saida" />
+                <label  for="saida">
+                    Saída
                 </label>
             </div>
-
         </div>
-        <br>
+        <br><br><br>
 
         <input type="submit" id="send" class="botaoEnviar" value="Enviar">
     </form>
 
-
-    <br><br><br>
+    <br><br>
 
     <footer>
         <div class="container-footer1">
@@ -118,5 +116,7 @@
 
 
 </body>
+
+
 
 </html>
