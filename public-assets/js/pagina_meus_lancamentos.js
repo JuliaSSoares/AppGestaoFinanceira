@@ -1,30 +1,17 @@
+mudaCorAddR$();
 
-
-let linha = document.querySelector('tbody tr:nth-child(1)'); console.log(linha)
-let valor =  ((document.querySelector('tr:nth-child(1) td:nth-child(2)')).innerHTML).replace(",","."); console.log(valor)
-
-
-if(valor < 0){
-    linha.classList.add('red');
-} else{ 
-    linha.classList.add('green')
-}
-
-
-
-const nLinhas = (document.querySelectorAll('tbody tr')).length ; console.log(nLinhas)
-
-function mudaCor(){
-    let linha = document.querySelector('tbody tr:nth-child(1)');
-    let valor =  ((document.querySelector('tr:nth-child(1) td:nth-child(2)')).innerHTML).replace(",","."); 
-    const nLinhas = (document.querySelectorAll('tbody tr')).length ; console.log(nLinhas)
-    for(let i = 0; i < nLinhas; i++){
-        if(valor < 0){
-            linha.classList.add('red');
-        } else{ 
-            linha.classList.add('green')
-        }
-         linha = document.querySelector('tbody tr:nth-child(i)');
-         valor =  ((document.querySelector('tr:nth-child(i) td:nth-child(2)')).innerHTML)
+function mudaCorAddR$() {
+  var table = document.getElementById("tabela");
+  for (var i = 1, row; (row = table.rows[i]); i++) {
+    for (var j = 1, col; (col = row.cells[j]); j += 4) {
+      valor = col.innerHTML;
+      console.log(valor);
+      if (valor > 0) {
+        row.classList.add("green");
+      } else {
+        row.classList.add("red");
+      }
+      col.innerHTML = "R$ " + valor;
     }
+  }
 }
