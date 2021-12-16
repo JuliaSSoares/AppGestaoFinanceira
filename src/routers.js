@@ -29,10 +29,10 @@ router.get('/novo_lancamento', (req, res) => res.render("novo_lancamento"))
 
 router.post('/novo_lancamento', (req, res, next) => {
     const query = /*sql*/`
-    INSERT INTO TRANSACAO (DESCRICAO, VALOR, DATE, TIPO)
+    INSERT INTO TRANSACAO (DESCRICAO, VALOR, STARTDATE, TIPO)
     VALUES (?, ?, ?, ?);
     `
-    db.run(query, [req.body.descricao, req.body.valor, req.body.data, req.body.tipo_transacao], err => {
+    db.run(query, [req.body.titulo, req.body.valor, req.body.start-date, req.body.search-type], err => {
         
         if (err) {
             console.log(err.message)
