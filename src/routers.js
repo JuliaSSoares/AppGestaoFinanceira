@@ -29,7 +29,7 @@ router.get('/novo_lancamento', (req, res) => res.render("novo_lancamento"))
 
 router.post('/novo_lancamento', (req, res, next) => {
     const query = /*sql*/`
-    INSERT INTO TRANSACOES (DESCRICAO, VALOR, DATA, TIPO_TRANSACAO)
+    INSERT INTO TRANSACAO (DESCRICAO, VALOR, DATE, TIPO)
     VALUES (?, ?, ?, ?);
     `
     db.run(query, [req.body.descricao, req.body.valor, req.body.data, req.body.tipo_transacao], err => {
