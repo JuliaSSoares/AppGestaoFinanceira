@@ -1,3 +1,5 @@
+$(".datepicker").datepicker({ dateFormat: "dd/mm/yy" }).val();
+
 mudaCorAddR$();
 
 function mudaCorAddR$() {

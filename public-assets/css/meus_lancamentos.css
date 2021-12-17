@@ -26,7 +26,7 @@ h2 {
   font-weight: bold;
 }
 
-table {
+#tabela {
   background-color: rgba(105, 90, 97, 0.082);
   width: 60%;
   height: 450px;
@@ -36,18 +36,18 @@ table {
     0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-table tr {
+#tabela tr {
   background-color: rgba(255, 255, 255, 0.603);
   align-items: center;
   text-align: center;
 }
 
-table td {
+#tabela td {
   text-align: center;
   border-radius: 0.5em;
   background-color: rgba(255, 255, 255, 0.671);
 }
-table th {
+#tabela th {
   border-radius: 0.5em;
   padding: 20px 20px 20px;
 }
@@ -74,23 +74,17 @@ table th {
   height: 69px;
   width: 498px;
 }
-/*
-.trash:hover{
-    color: rgb(150, 30, 76);
-    background-color: rgba(0, 0, 0, 0.288);
-    border-radius: 0.5em;
-    padding: 5px;
-}*/
+
 
 #subtitulo {
   display: flex;
-  margin: 10px 10px 10px;
+  margin: 20px 20px 20px;
   align-items: center;
   justify-content: center;
-  background-color: rgba(255, 255, 255, 0.637);
+  background-color: rgba(255, 255, 255, 0.342);
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: rgb(0, 0, 0);
-  height: 70px;
+  height: 68px;
   border-radius: 0.5em;
   margin-left: 35%;
   width: 30%;
@@ -113,3 +107,47 @@ table th {
 .green {
   color: green;
 }
+
+.inputs-data{
+    display: flex;
+    justify-content: center;
+    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.2em;
+    font-size: 18px;
+
+}
+
+.botaoBuscar{
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.514) 0.1em 0.1em 0.2em;
+    background-color: #f8b74a;
+    border-radius: 100em;
+    height: 28px;
+    width: 60px;
+    font-size: small;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.botaoBuscar:hover{
+    color: rgba(63, 63, 63, 0.5);
+    background-color: #f8b84abb;
+}
+
+.botaoBuscar:active{
+    height: 27px;
+    width: 59px;
+}
+
+.datepicker{
+    background-color: rgba(255, 255, 255, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(138, 138, 138);
+    text-align: center;
+    height: 18px;
+    font-size: 18px;
+}
+

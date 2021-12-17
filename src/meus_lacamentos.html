@@ -10,6 +10,11 @@
         <link rel="stylesheet" href="../public-assets/css/footer.css">
         <link rel="stylesheet" href="../public-assets/css/navbar.css">
         <link rel="shortcut icon" type="image/x-icon" href="../public-assets/imagens/favicon.png">
+        <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css' rel='stylesheet'>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+        </script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+        </script>
         <title>Meus Lançamentos</title>
     </head>
 
@@ -39,7 +44,7 @@
 			</div>
 		  </nav>
 	</header>
-        
+
         <a href="" id="botao-voltar"><i class="fas fa-arrow-alt-circle-left"></i></a><h1 class="fundoArcoIrisTitulo"> Meus Lançamentos </h1>
         <br>
         <div id="informacoes_usuario">
@@ -50,7 +55,25 @@
             
             <p>Saldo conta</p>&ensp;
             <h2>R$ 1.500,00</h2>
-        </div><br>
+        </div>
+        <br>
+        <form class="inputs-data" id="form" method="GET">
+            
+                <label for="dataInicial">Data inicial: &nbsp;</label>
+                <input name="dataInicial" type="text" class="datepicker" class="estiloInput" required />
+            
+                <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</p>
+            
+                <label for="dataFinal">Data final: &nbsp;</label>
+                <input name="dataFinal" type="text" class="datepicker" class="estiloInput" required />
+            
+                <p>&nbsp;&nbsp;&nbsp;&nbsp; </p>
+            <input type="submit" id="send" class="botaoBuscar" value="Buscar">
+        </form>   
+
+
+        <br>
+
 
         <div class="flexboxCenter">
             
@@ -60,7 +83,6 @@
                         <th>Título</th>
                         <th>Valor</th>
                         <th>Data</th>
-                        <th>Ações</th>
                     </tr>
                 </thead>
                 <tbody class="tbody">
@@ -68,33 +90,32 @@
                         <td>Netflix</td>
                         <td>-39.90</td>
                         <td>01/08/2021</td>
-                        <td><a href=" "><i class="fas fa-trash-alt"></i></a>&nbsp;&nbsp; <a href=" "><i class="fas fas fa-edit"></i></a></td>
+                    
                     </tr>
                     <tr>
                         <td>Água</td>
                         <td>-60.50</td>
                         <td>03/08/2021</td>
-                        <td><a href=" "><i class="fas fa-trash-alt"></i></a>&nbsp;&nbsp; <a href=" "><i class="fas fas fa-edit"></i></a></td>
+                        
                         
                     </tr>
                     <tr>
                         <td>Salário</td>
                         <td>5000.00</td>
                         <td>05/12/2021</td>
-                        <td><a href=" "><i class="fas fa-trash-alt"></i></a>&nbsp;&nbsp; <a href=" "><i class="fas fas fa-edit"></i></a>
-                        </td>
+                        
                     </tr>
                     <tr>
                         <td>Luz</td>
                         <td>-60.50</td>
                         <td>03/08/2021</td>
-                        <td><a href=" "><i  class="fas fa-trash-alt"></i></a>&nbsp;&nbsp; <a href=" "><i class="fas fas fa-edit"></i></a></td>
+                        
                     </tr>
                     <tr>
                         <td>Venda do celular</td>
                         <td>1800.50</td>
                         <td>03/08/2021</td>
-                        <td><a href=" "><i  class="fas fa-trash-alt"></i></a>&nbsp;&nbsp; <a href=" "><i class="fas fas fa-edit"></i></a></td>
+                        
                     </tr> 
 
                 </tbody>

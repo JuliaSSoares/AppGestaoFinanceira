@@ -14,6 +14,13 @@
     <script src="../public-assets/js/pagina_novo_lancamento.js" defer ></script>
     <link rel="stylesheet" href="../public-assets/css/footer.css">
     <link rel="stylesheet" href="../public-assets/css/navbar.css">
+    <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+    </script>
+
+
 
 </head>
 
@@ -57,8 +64,8 @@
         <div>
             <br>
             <div>
-                <label for="">Título do lançamento :   </label>
-                <input type="text" id='titulo' class="estiloInput" name="titulo" placeholder="Ex. Netflix" required > <br>
+                <label for='descricao'>Descrição do lançamento :   </label>
+                <input type="text" id='descricao' class="estiloInput" name="descricao" placeholder="Ex. Netflix" required > <br>
             </div>
             <br>
             <label for=""><i class="fas fa-dollar-sign"></i> Valor do lançamento:   </label>
@@ -66,9 +73,9 @@
             
         </div>
         <br>
-        <div class="calendary">
-            <label for="start-date">Data: &nbsp;</label>
-            <input id="data" name="start-date" type="date" required />
+        <div >
+            <label for="data">Data: &nbsp;</label>
+            <input  name="date" type="text" id="datepicker" class="estiloInput" placeholder="Ex. 10/10/2021"  required />
         </div>
 
         <br>
@@ -80,14 +87,13 @@
             
             <div>
                 <input type="radio" 
-                    name="tipo" value="entrada" id="" checked />
+                    name="tipo" value="entrada" id="min" checked />
                 <label  for="entrada">
                     Entrada
                 </label>
             </div>
             <div > 
-                <input  type="radio" name="tipo" 
-                    value="saida" />
+                <input  type="radio" name="tipo" id="max" value="saida" />
                 <label  for="saida">
                     Saída
                 </label>
@@ -113,9 +119,8 @@
         </div>
     </footer>
 
-
-
 </body>
+
 
 
 

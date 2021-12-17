@@ -64,13 +64,6 @@ form {
   margin: 10px 10px 10px 10px;
 }
 
-.calendary {
-  height: 60px;
-  width: 100%;
-  border-radius: 14px;
-  border-radius: 0.5em;
-  height: 30px;
-}
 
 .containerCheck {
   height: 60px;
@@ -95,51 +88,3 @@ form {
   justify-content: center;
 }
 
-/* form{
-    display: flex;
-    width: 40%;
-    height: 500px;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-} */
-/* 
-
-.margem {
-width: 100%;
-max-width: 100%;
-margin-left: auto;
-margin-right: auto;
-} */
-
-/* 
-
-.total{
-    height: 80px;
-    width: 400px;
-    border-radius: 14px;
-}
-.Login label{
-    color:rgb(155, 92, 11);
-    font-size: 40px;
-}
-
-.Login input{
-    height: 120px;
-    width: 700px;
-    border-radius: 14px;
-    display: inline-flex;
-    font-size: 25px;
-    color: blueviolet;
-   
-}
-
-.cabecalho {
-   
-    align-items: center;
-    display: flex;
-    background-color: rgba(235, 5, 131, 0.884);
-    border-radius: 8px;
-    box-shadow: inset 0 0 1em #ffd700, 0 0 1em rgb(32 235 5 / 88%);
-}
- */
