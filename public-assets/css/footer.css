@@ -1,26 +1,25 @@
-.container-footer1{
+.container-footer1 {
   background-color: rgb(241, 233, 233);
   height: 100%;
   width: 100%;
-  text-align:center;
+  text-align: center;
   justify-content: center;
   align-items: center;
-
 }
 
-.container-footer2{
+.container-footer2 {
   text-align: center;
   display: block;
   padding: 1%;
 }
 
-.container-footer3{
+.container-footer3 {
   text-align: center;
   display: block;
   padding-bottom: 0.1%;
 }
 
-.imagem-footer{
+.imagem-footer {
   width: 150px;
   height: 51px;
 }

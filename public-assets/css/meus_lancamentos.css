@@ -1,127 +1,153 @@
-@font-face{
-    font-family: "raleway";
-    src: url('../raleway.ttf');
+@font-face {
+  font-family: "raleway";
+  src: url("../raleway.ttf");
 }
 
-*{
-    font-family: 'raleway';
+* {
+  font-family: "raleway";
 }
 
-body{
-    background-color:#ebe3e3 !important ;
-    
+body {
+  background-color: #ebe3e3 !important ;
 }
 
-h1{
-    width: 60%;
-    margin-left: 30%;
-    font-weight: bold !important;
-    color: rgb(253, 253, 253) !important;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
-    text-align: center;
+h1 {
+  width: 60%;
+  margin-left: 30%;
+  font-weight: bold !important;
+  color: rgb(253, 253, 253) !important;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 
-h2{
-    font-weight: bold;
+h2 {
+  font-weight: bold;
+}
+
+#tabela {
+  background-color: rgba(105, 90, 97, 0.082);
+  width: 60%;
+  height: 450px;
+  font-size: 18px;
+  border-radius: 0.5em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#tabela tr {
+  background-color: rgba(255, 255, 255, 0.603);
+  align-items: center;
+  text-align: center;
+}
+
+#tabela td {
+  text-align: center;
+  border-radius: 0.5em;
+  background-color: rgba(255, 255, 255, 0.671);
+}
+#tabela th {
+  border-radius: 0.5em;
+  padding: 20px 20px 20px;
+}
+
+#botao_novo_lancamento {
+  color: rgb(255, 255, 255);
+  background-color: rgba(87, 0, 124, 0.514);
+  height: 70px;
+  width: 500px;
+  border-radius: 0.5em;
+  border: 2px dotted rgb(114, 114, 114);
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: rgba(0, 0, 0, 0.226) 0.1em 0.1em 0.2em;
+}
+
+#botao_novo_lancamento:hover {
+  color: rgba(0, 0, 0, 0.568);
+  background-color: rgba(87, 0, 124, 0.26);
+}
+
+#botao_novo_lancamento:active {
+  height: 69px;
+  width: 498px;
 }
 
 
+#subtitulo {
+  display: flex;
+  margin: 20px 20px 20px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.342);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: rgb(0, 0, 0);
+  height: 68px;
+  border-radius: 0.5em;
+  margin-left: 35%;
+  width: 30%;
+}
 
+#container-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
 
-table{
-    background-color: rgba(105, 90, 97, 0.082);
-    width: 60%;
-    height: 450px;
+#lancamento_botao {
+  text-decoration: none;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.inputs-data{
+    display: flex;
+    justify-content: center;
+    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.2em;
     font-size: 18px;
-    border-radius: 0.5em;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
 
-table tr{
-    background-color: rgba(255, 255, 255, 0.603);
-    align-items: center;
-    text-align:center;
-    
-    
-}
-
-table td{
-    text-align:center;
-    border-radius: 0.5em;
-    background-color: rgba(255, 255, 255, 0.671);
-    
-}
-table th{
-    border-radius: 0.5em;
-    padding: 20px 20px 20px;
-    
-}
-
-#botao_novo_lancamento{
+.botaoBuscar{
     color: rgb(255, 255, 255);
-    background-color: rgba(87, 0, 124, 0.514);
-    height: 70px;
-    width: 500px;
-    border-radius: 0.5em;
-    border: 2px dotted rgb(114, 114, 114);
-    font-size: 20px;
+    text-shadow: rgba(0, 0, 0, 0.514) 0.1em 0.1em 0.2em;
+    background-color: #f8b74a;
+    border-radius: 100em;
+    height: 28px;
+    width: 60px;
+    font-size: small;
+    border: none;
     font-weight: bold;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    text-shadow: rgba(0, 0, 0, 0.226) 0.1em 0.1em 0.2em;
-}
-
-#botao_novo_lancamento:hover{
-    color: rgba(0, 0, 0, 0.568);
-    background-color: rgba(87, 0, 124, 0.26);
-}
-
-#botao_novo_lancamento:active{
-    height: 69px;
-    width: 498px;
-
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
-/*
-.trash:hover{
-    color: rgb(150, 30, 76);
-    background-color: rgba(0, 0, 0, 0.288);
-    border-radius: 0.5em;
-    padding: 5px;
-}*/
 
-#subtitulo{
-    display: flex;
-    margin: 10px 10px 10px;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.637);
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    color: rgb(0, 0, 0) ;
-    height: 70px;
-    border-radius: 0.5em;
-    margin-left: 35%;
-    width: 30%;
+.botaoBuscar:hover{
+    color: rgba(63, 63, 63, 0.5);
+    background-color: #f8b84abb;
 }
 
-
-
-#container-button{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
+.botaoBuscar:active{
+    height: 27px;
+    width: 59px;
 }
 
-#lancamento_botao{
-    text-decoration: none;
+.datepicker{
+    background-color: rgba(255, 255, 255, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(138, 138, 138);
+    text-align: center;
+    height: 18px;
+    font-size: 18px;
 }
 
-
-.red{
-    color: red;
-}
-
-.green{
-    color: green;
-}

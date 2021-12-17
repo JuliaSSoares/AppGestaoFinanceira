@@ -14,7 +14,14 @@
     <script src="/js/pagina_novo_lancamento.js" defer ></script>
     <link rel="stylesheet" href="/css/footer.css">
     <link rel="stylesheet" href="/css/navbar.css">
-    <link rel="shortcut icon" type="image/x-icon" href="/imagens/favicon.png">
+    <link href='https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/ui-lightness/jquery-ui.css' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
+    </script>
+
+
+
 </head>
 
 <body>
@@ -58,8 +65,8 @@
             <br>
             <br>
             <div>
-                <label for="">Título do lançamento :   </label>
-                <input type="text" id='titulo' class="estiloInput" name="titulo" placeholder="Ex. Netflix" required > <br>
+                <label for='descricao'>Descrição do lançamento :   </label>
+                <input type="text" id='descricao' class="estiloInput" name="descricao" placeholder="Ex. Netflix" required > <br>
             </div>
             <br>
             <br>
@@ -68,10 +75,9 @@
             
         </div>
         <br>
-        <br>
-        <div class="calendary">
-            <label for="start-date">Data: &nbsp;</label>
-            <input id="data" name="start-date" type="date" required />
+        <div >
+            <label for="data">Data: &nbsp;</label>
+            <input  name="date" type="text" id="datepicker" class="estiloInput" placeholder="Ex. 10/10/2021"  required />
         </div>
 
         <br>
@@ -80,18 +86,17 @@
         <div class="containerCheck" >
 
             <div>
-                <input type="radio" id="search-type-random" id="checkEntrada"
-                    name="search-type" value="random" checked />
-                <label  for="search-type-random">
+                <input type="radio" 
+                    name="tipo" value="entrada" id="min" checked />
+                <label  for="entrada">
                     Entrada
                 </label>
             </div>
 <!-- class="form-check" class="form-check-input"class="form-check-label" class="form-check-label" class="form-check-input"-->
             <div > 
-                <input  type="radio" name="search-type" name="saida" id="search-type-date-range" id="checkSaida"
-                    value="random" />
-                <label  for="search-type-date-range">
-                    Saida
+                <input  type="radio" name="tipo" id="max" value="saida" />
+                <label  for="saida">
+                    Saída
                 </label>
             </div>
 
@@ -114,8 +119,6 @@
             </div>
         </div>
     </footer>
-
-
 
 </body>
 

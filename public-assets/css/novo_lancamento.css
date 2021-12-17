@@ -1,160 +1,90 @@
-@font-face{
-    font-family: "raleway" ;
-    src: url('../raleway.ttf');
+@font-face {
+  font-family: "raleway";
+  src: url("../raleway.ttf");
 }
-
-
-
 
 body {
-    font-family: "raleway"  !important;
-    background-color:#ebe3e3 !important ;
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-attachment: fixed;    
-    margin: 0;
+  font-family: "raleway" !important;
+  background-color: #ebe3e3 !important ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0;
 }
 
-h1{
-    width: 60%;
-    text-align: center;
-    margin-left: 30%;
-    font-weight: bold !important;
-    color: rgb(253, 253, 253) !important;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
+h1 {
+  width: 60%;
+  text-align: center;
+  margin-left: 30%;
+  font-weight: bold !important;
+  color: rgb(253, 253, 253) !important;
+  text-shadow: black 0.1em 0.1em 0.2em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
-form{
-    background-color:rgba(255, 255, 255, 0.671);;
-    width: 60%;
-    height: 520px;
-    font-size: 18px;
-    border-radius: 0.5em;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267), 0 6px 20px 0 rgba(0,0,0,0.19);
-    padding:10px;
-    margin-top: 20px;
-    margin-left: 20%;
-    text-align: center;
+form {
+  background-color: rgba(255, 255, 255, 0.671);
+  width: 60%;
+  height: 520px;
+  font-size: 18px;
+  border-radius: 0.5em;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267),
+    0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+  margin-top: 20px;
+  margin-left: 20%;
+  text-align: center;
 }
 
-.botaoEnviar{
-    color: rgb(255, 255, 255);
-    background-color: rgba(87, 0, 124, 0.514);
-    height: 50px;
-    width: 40%;
-    border-radius: 0.5em;
-    border: 0;
-    font-size: 20px;
-    font-weight: bold;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    text-shadow: rgba(0, 0, 0, 0.226) 0.1em 0.1em 0.2em;
+.botaoEnviar {
+  color: rgb(255, 255, 255);
+  background-color: rgba(87, 0, 124, 0.514);
+  height: 50px;
+  width: 40%;
+  border-radius: 0.5em;
+  border: 0;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: rgba(0, 0, 0, 0.226) 0.1em 0.1em 0.2em;
 }
 
-
-.botaoEnviar:hover{
-    color: rgba(0, 0, 0, 0.568);
-    background-color: rgba(87, 0, 124, 0.26);
+.botaoEnviar:hover {
+  color: rgba(0, 0, 0, 0.568);
+  background-color: rgba(87, 0, 124, 0.26);
 }
 
-.botaoEnviar:active{
-    height: 48px;
-    width: 39%;
-}
-
-.cabecalho {
-    margin: 10px 10px 10px 10px;
-    
-}
-
-
-.calendary{
-    height: 60px;
-    width: 100%;
-    border-radius: 14px;
-    border-radius: 0.5em;
-    height: 30px;
-}
-
-.containerCheck{
-    height: 60px;
-    width: 100%;
-    border-radius: 14px;
-}
-
-
-
-.estiloInput{
-    border-radius: 0.5em;
-    height: 35px;
-    background-color: rgba(255, 255, 255, 0.164);
-    border: 2px solid rgba(0, 0, 255, 0.247);
-}
-
-#mensagemErro{
-    font-size: small;
-    color:red;
-
-}
-
-.container-check{
-    display: flex;
-    justify-content: center;
-}
-
-
-
-/* form{
-    display: flex;
-    width: 40%;
-    height: 500px;
-    align-items: center;
-    align-content: center;
-    flex-direction: column;
-} */
-/* 
-
-.margem {
-width: 100%;
-max-width: 100%;
-margin-left: auto;
-margin-right: auto;
-} */
-
-
-
-
-/* 
-
-.total{
-    height: 80px;
-    width: 400px;
-    border-radius: 14px;
-}
-.Login label{
-    color:rgb(155, 92, 11);
-    font-size: 40px;
-}
-
-.Login input{
-    height: 120px;
-    width: 700px;
-    border-radius: 14px;
-    display: inline-flex;
-    font-size: 25px;
-    color: blueviolet;
-   
+.botaoEnviar:active {
+  height: 48px;
+  width: 39%;
 }
 
 .cabecalho {
-   
-    align-items: center;
-    display: flex;
-    background-color: rgba(235, 5, 131, 0.884);
-    border-radius: 8px;
-    box-shadow: inset 0 0 1em #ffd700, 0 0 1em rgb(32 235 5 / 88%);
+  margin: 10px 10px 10px 10px;
 }
- */
+
+
+.containerCheck {
+  height: 60px;
+  width: 100%;
+  border-radius: 14px;
+}
+
+.estiloInput {
+  border-radius: 0.5em;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0.164);
+  border: 2px solid rgba(0, 0, 255, 0.247);
+}
+
+#mensagemErro {
+  font-size: small;
+  color: red;
+}
+
+.container-check {
+  display: flex;
+  justify-content: center;
+}
 
