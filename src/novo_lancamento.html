@@ -19,6 +19,8 @@
     </script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js">
     </script>
+    
+
 
 
 
@@ -65,7 +67,7 @@
             <br>
             <div>
                 <label for='descricao'>Descrição do lançamento :   </label>
-                <input type="text" id='descricao' class="estiloInput" name="descricao" placeholder="Ex. Netflix" required > <br>
+                <input type="text" id='descricao' maxlength="50"  class="estiloInput" name="descricao" placeholder="Ex. Netflix" required > <br>
             </div>
             <br>
             <label for=""><i class="fas fa-dollar-sign"></i> Valor do lançamento:   </label>
@@ -87,13 +89,13 @@
             
             <div>
                 <input type="radio" 
-                    name="tipo" value="entrada" id="min" checked />
+                    name="tipo" value="entrada" id="entrada"   checked />
                 <label  for="entrada">
                     Entrada
                 </label>
             </div>
             <div > 
-                <input  type="radio" name="tipo" id="max" value="saida" />
+                <input  type="radio" name="tipo" id="saida"  value="saida" />
                 <label  for="saida">
                     Saída
                 </label>
