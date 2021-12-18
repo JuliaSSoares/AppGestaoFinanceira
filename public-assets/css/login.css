@@ -23,10 +23,10 @@ main {
 }
 
 #formlog {
-  background-color: rgba(0, 0, 0, 0.438);
+  background-color: rgba(0, 0, 0, 0.253);
   backdrop-filter: blur(4px);
-  border-radius: 5px;
-  padding: 20px;
+  border-radius: 0.75em;
+  padding: 45px;
   margin-top: 5%;
 }
 
@@ -48,10 +48,6 @@ h4 {
   padding-bottom: 5%;
 }
 
-/* #assine {
-  text-shadow: 2px 2px #000000;
-} */
-
 .navbar1 {
   padding: 2%;
   background-color: transparent;
@@ -60,3 +56,17 @@ h4 {
 .navbar-a {
   color: black;
 }
+
+#botao{
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 1em;
+    background-color: rgb(43, 90, 231);
+    text-shadow: 1px 1px 2px black;
+}
+
+
+#botao:hover{
+    border: 2px solid rgba(255, 255, 255, 0.123);
+    background-color: rgba(43, 90, 231, 0.692);
+}
+
