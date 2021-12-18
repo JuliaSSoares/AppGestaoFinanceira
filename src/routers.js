@@ -20,7 +20,24 @@ const db = new sqlite3.Database(
 router.get('/', (req, res) => res.render("../../index"))
 
 router.get('/cadastro', (req, res) => res.render("cadastro"))
-router.post('/cadastro', (req, res) => res.render("cadastro"))
+
+router.get('/cadastro', (req, res) => res.render("cadastro"))
+
+router.post('/cadastro', (req, res, next) => {
+
+    const query = /*sql*/ `
+      INSERT INTO ClIENTE (NOME, CPF, EMAIL, SENHA)
+    VALUES (?, ?, ?, ?) `
+    db.run(query, [req.body.nome, req.body.cpf, req.body.email, req.body.senha],  err => {
+        if (err) {
+            console.log(err.message);
+            return next(err);
+        }
+        res.redirect("login")
+    })
+});
+
+
 
 router.get('/login', (req, res) => res.render("login"))
 router.post('/login', (req, res) => res.render("login"))
