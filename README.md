@@ -106,6 +106,10 @@
   <a href=" "> <img width="30px"
          src="public-assets/imagens/icones/instagram.png"></a>
    <br>
+   <br>
+    <p>"Neste tempo de projeto aprendi a importância da comunicação entre sua equipe, e o valor e pontencial que você dá a cada um dos membros."</p>
+   <br>
+  
  </div>
  <hr>
  
