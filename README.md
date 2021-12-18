@@ -9,7 +9,7 @@
   <img width="25px" src="https://emojipedia-us.s3.amazonaws.com/source/skype/289/rainbow-flag_1f3f3-fe0f-200d-1f308.png">
   </p>
 </div>
-<br><br><br>
+<br>
 
 <h2 align="center">Ferramentas utilizadas<h2>
   
@@ -25,8 +25,8 @@
   
   <h3>Organização da equipe: </h3>
   
-  <h4>Front-end: </h4> <p> Oriana Salazar, Ruan Marques, Julia Soares. </p>
-  <h4>Back-end/Banco de dados : </h4> <p> Helena Fonseca, Esteban Gonzalez, Rui Lagos. </p>
+  <h4>Front-end: </h4> <p> Oriana Salazar, Ruan Marques e Julia Soares. </p>
+  <h4>Back-end/Banco de dados : </h4> <p> Helena Fonseca, Esteban Gonzalez e Rui Lagos. </p>
 
 <br>
  
