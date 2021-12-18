@@ -93,6 +93,7 @@
   <a href=" "> <img width="30px"
          src="public-assets/imagens/instagram.png"></a>
    <br>
+    <p>"Eu entendi a importância da organização em um projeto e tive a oportunidade de viver momentos extremamente divertidos com meus companheiros de equipe."</p>
    <br>
 
   <b>Esteban Gonzalez Gomez</b><br><br>
