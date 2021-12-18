@@ -23,7 +23,7 @@ main {
 }
 
 #formlog {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.438);
   backdrop-filter: blur(4px);
   border-radius: 5px;
   padding: 20px;
