@@ -19,7 +19,7 @@
 
   <img width='100px' src="public-assets/imagens/icones/sqlite.png"> - <img width='50px' src="public-assets/imagens/icones/html.png"> -
   <img width='50px' src="public-assets/imagens/icones/css.png"> - <img width='50px' src="public-assets/imagens/icones/javascript.png"> - 
-  <img width='50px' src="public-assets/imagens/icones/jquery.png">
+  <img width='50px' src="public-assets/imagens/icones/jquery.png"> - <img width='43px' src="public-assets/imagens/icones/bootstrap.png">
   
 </div>  
   
