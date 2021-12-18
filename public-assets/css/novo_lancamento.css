@@ -42,13 +42,13 @@ form {
 
 .botaoEnviar {
   color: rgb(255, 255, 255);
-  background-color: #f8b84a48;
+  background-color: #f8b84a94;
   width: 200px;
   border-radius: 1em;
   border: 0;
   font-size: 17px;
   font-weight: bold;
-  text-shadow: rgba(0, 0, 0, 0.527) 0.1em 0.1em 0.2em;
+  text-shadow: rgba(0, 0, 0, 0.247) 0.1em 0.1em 0.2em;
 
 }
 
@@ -96,12 +96,4 @@ input:focus, input:focus {
     outline: 0;
     background-color: transparent;
     color: rgba(0, 0, 0, 0.925);
-}
-
-
-.estiloInput:-webkit-autofill {
-    -webkit-text-fill-color: rgb(20, 20, 20) !important;
-    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
-    -webkit-transition-delay: 9999s;
-
 }
