@@ -19,18 +19,19 @@ header {
 
 .titulo-formulario {
   font-family: "raleway";
-  font-size: 25px;
+  font-size: 28px;
   padding-top: 10px;
   text-align: center;
-  text-shadow: 2px 2px #f6f2f2;
+  text-shadow: 2px 2px #f6f2f2ab;
 }
 
 .main--cadastro {
   margin-top: 40px;
   margin-bottom: 80px;
-  background-color: rgba(0, 0, 0, 0.7);
-  border-radius: 5px;
-  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.527);
+  backdrop-filter: blur(4px);
+  border-radius: 0.75em;
+  padding: 23px;
   margin-top: 2%;
 }
 
@@ -40,8 +41,9 @@ header {
 
 .button--cadastro {
   display: block;
+  border-radius: 0.75em;
 }
 
 .checkbox {
-  padding-top: 2%;
+  padding-top: 3%;
 }
