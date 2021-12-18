@@ -59,20 +59,19 @@
         <p>Agência: 4110 Conta: 23451-1 </p>
     </div>
 
-
     <form id="form" method="POST">
         <div>
-            <br>
             <div>
                 <label for='descricao'>Descrição do lançamento :   </label>
                 <input type="text" id='descricao' maxlength="50"  class="estiloInput" name="descricao" placeholder="Ex. Netflix" required > <br>
             </div>
             <br>
-            <label for=""><i class="fas fa-dollar-sign"></i> Valor do lançamento:   </label>
+
+            <label for="">Valor do lançamento:   </label>
             <input id="valorLancamento" placeholder="Ex. 1800.00" class="estiloInput" name="valor" type="text" class="form-control" onkeypress="$(this).mask('000000000.00', {reverse: true});" required><p id="mensagemErro"></p>
-            
+            <br>
         </div>
-        <br>
+
         <div >
             <label for="data">Data: &nbsp;</label>
             <input  name="date" type="text" id="datepicker" class="estiloInput" placeholder="Ex. 10/10/2021"  required />
@@ -80,28 +79,24 @@
 
         <br>
         
-
-        <div class="containerCheck" >
-
-            <p>Selecione se será entrada ou saída (uma opção):</p>
-            
-            <div>
-                <input type="radio" 
+        <div>
+            <div class="conatiner_radio">               
+                <input type="radio"  
                     name="tipo" value="entrada" id="entrada"   checked />
                 <label  for="entrada">
-                    Entrada
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entrada
                 </label>
             </div>
-            <div > 
-                <input  type="radio" name="tipo" id="saida"  value="saida" />
+            </div>
+
+                <input  type="radio" name="tipo" id="saida"  value="saida" " />
                 <label  for="saida">
-                    Saída
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saída
                 </label>
             </div>
 
-            
         </div>
-        <br><br><br>
+        <br><br>
 
         <input type="submit" id="send" class="botaoEnviar" value="Enviar">
     </form>

@@ -8,8 +8,7 @@
   margin-top: 0;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(135deg, red, orange, yellow, green, blue, violet);
-  color: rgba(22, 22, 22, 0.801);
+  background: linear-gradient(135deg, rgba(255, 0, 0, 0.425), rgba(255, 166, 0, 0.452), rgba(255, 255, 0, 0.541), rgba(0, 128, 0, 0.459), rgba(0, 0, 255, 0.377), rgba(238, 130, 238, 0.534));
   height: 80px;
   width: 40%;
   border-radius: 0.5em;
@@ -39,10 +38,10 @@
 }
 
 #informacoes_usuario {
-  font-size: 25px;
-  text-shadow: rgb(110, 110, 110) 0.1em 0.1em 0.2em;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5em;
+  font-size: 18px;
   color: rgba(0, 0, 0, 0.575);
+  display: flex;
+  width: 40%;
+  margin-left: 31%;
+  justify-content: space-between;
 }
