@@ -33,7 +33,7 @@ router.post('/cadastro', (req, res, next) => {
             console.log(err.message);
             return next(err);
         }
-        res.redirect("cadastro")
+        res.redirect("login")
     })
 });
 
