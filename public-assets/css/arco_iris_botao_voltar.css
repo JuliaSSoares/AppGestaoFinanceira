@@ -38,10 +38,10 @@
 }
 
 #informacoes_usuario {
+  display: flex;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.575);
-  display: flex;
   width: 40%;
-  margin-left: 31%;
+  margin-left: 30%;
   justify-content: space-between;
 }

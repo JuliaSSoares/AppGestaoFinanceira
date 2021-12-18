@@ -51,15 +51,15 @@
       </nav>
 </header>
     <div>
-        <a href="" id="botao-voltar"><i class="fas fa-arrow-alt-circle-left"></i></a>
+        <a href="../index.html" id="botao-voltar"><i class="fas fa-arrow-alt-circle-left"></i></a>
         <h1 class="fundoArcoIrisTitulo"> Novo Lançamento </h1><br>
     </div>
     <div id="informacoes_usuario">
         <p>Julia Soares</p>
-        <p>Agência: 4110 Conta: 23451-1 </p>
+        <p>Agência: 4110 &nbsp;&nbsp;Conta: 23451-1 </p>
     </div>
 
-    <form id="form" method="POST">
+    <form id="form" method="POST" autocomplete="off">
         <div>
             <div>
                 <label for='descricao'>Descrição do lançamento :   </label>
@@ -68,7 +68,7 @@
             <br>
 
             <label for="">Valor do lançamento:   </label>
-            <input id="valorLancamento" placeholder="Ex. 1800.00" class="estiloInput" name="valor" type="text" class="form-control" onkeypress="$(this).mask('000000000.00', {reverse: true});" required><p id="mensagemErro"></p>
+            <input id="valorLancamento" placeholder="Ex. 1800,00" class="estiloInput" name="valor" type="text" class="form-control" onkeypress="$(this).mask('000000000,00', {reverse: true});" required><p id="mensagemErro"></p>
             <br>
         </div>
 
@@ -77,21 +77,20 @@
             <input  name="date" type="text" id="datepicker" class="estiloInput" placeholder="Ex. 10/10/2021"  required />
         </div>
 
-        <br>
+        <br><br>
         
         <div>
-            <div class="conatiner_radio">               
+            <div id="container_radio">               
                 <input type="radio"  
                     name="tipo" value="entrada" id="entrada"   checked />
                 <label  for="entrada">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Entrada
+                        &nbsp;Entrada
                 </label>
-            </div>
-            </div>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
                 <input  type="radio" name="tipo" id="saida"  value="saida" " />
                 <label  for="saida">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Saída
+                        &nbsp;Saída
                 </label>
             </div>
 
