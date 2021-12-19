@@ -1,40 +1,47 @@
-
-.flexboxCenter{
-    display: flex;
-    justify-content: center;
+.flexboxCenter {
+  display: flex;
+  justify-content: center;
 }
 
-
-.fundoArcoIrisTitulo{
-    display: flex;
-    margin-top: 0;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(45deg, red, orange, yellow, green, blue, violet);
-    color: rgba(22, 22, 22, 0.801) ;
-    height: 100px;
-    border-radius: 0.5em;
-    z-index:1;
+.fundoArcoIrisTitulo {
+  display: flex;
+  margin-top: 0;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, rgba(255, 0, 0, 0.425), rgba(255, 166, 0, 0.452), rgba(255, 255, 0, 0.541), rgba(0, 128, 0, 0.459), rgba(0, 0, 255, 0.377), rgba(238, 130, 238, 0.534));
+  height: 80px;
+  width: 40%;
+  border-radius: 0.5em;
+  z-index: 1;
 }
 
-#botao-voltar{
-    position:absolute;
-    margin-top: 20px;
-    margin-left: 20px;
-    padding: 20px;
-    float:left;
-    z-index: 2;
-}
-#botao-voltar{
-    background-color: white;
-    border-radius: 0.5em;
-    text-decoration: none;
-    font-weight:bold;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    cursor: pointer;
-}
-#botao-voltar:hover{
-    color: rgb(255, 255, 255);
-    background-color: rgba(129, 139, 139, 0.562);
+#botao-voltar {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 30%;
+  padding: 20px;
+  font-size: 25px;
+  float: left;
+  z-index: 2;
 }
 
+#botao-voltar {
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.582) 0.1em 0.1em 0.2em;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#botao-voltar:hover {
+  color: rgba(255, 255, 255, 0.301);
+}
+
+#informacoes_usuario {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.575);
+  display: flex;
+  width: 40%;
+  margin-left: 31%;
+  justify-content: space-between;
+}

@@ -1,16 +1,19 @@
+$(".datepicker").datepicker({ dateFormat: "dd/mm/yy" }).val();
 
+mudaCorAddR$();
 
-let linha = document.querySelector('tbody tr:nth-child(2)'); console.log(linha)
-const valor =  ((document.querySelector('tr:nth-child(2) td:nth-child(2)')).innerHTML).replace(",","."); console.log(valor)
-
-
-if(valor < 0){
-    linha.classList.add('red');
-} else{ 
-    linha.classList.add('green')
+function mudaCorAddR$() {
+  var table = document.getElementById("tabela");
+  for (var i = 1, row; (row = table.rows[i]); i++) {
+    for (var j = 1, col; (col = row.cells[j]); j += 4) {
+      valor = col.innerHTML;
+      console.log(valor);
+      if (valor > 0) {
+        row.classList.add("green");
+      } else {
+        row.classList.add("red");
+      }
+      col.innerHTML = "R$ " + valor;
+    }
+  }
 }
-
-
-
-const nLinhas = (document.querySelectorAll('tbody tr')).length ; console.log(nLinhas)
-

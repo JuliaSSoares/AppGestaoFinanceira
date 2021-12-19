@@ -1,50 +1,43 @@
-@font-face{
-    font-family: "raleway";
-    src: url('../raleway.ttf');
+@font-face {
+  font-family: "raleway";
+  src: url("../raleway.ttf");
 }
 
-.navbar1{
-   padding: 2%;
-   background-color: transparent;
+body {
+  background: url(../imagens/mulher_bg.jpg) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-.navbar-a{
-    color:black;
+.titulo {
+  font-family: raleway;
+  padding-top: 80px;
+  font-size: 50px;
+  padding-left: 6%;
+  padding-right: 35%;
+  padding-bottom: 20px;
 }
 
-body{   
-   background: url(/imagens/mulher_bg.jpg) center center no-repeat fixed; 
-   -webkit-background-size: cover;
-   -moz-background-size: cover;
-   -o-background-size: cover;
-   background-size: cover;     
+.fbotao-plus {
+  font-family: raleway;
+  font-size: 18px;
+  color: rgb(255, 255, 255);
+  border: none;
+  cursor: pointer;
+  margin-left: 15%;
+  height: 60px;
+  width: 300px;
+  line-height: 30px;
+  border-radius: 20px;
+  background: linear-gradient(135deg, red, orange, yellow, green, blue, violet);
+  margin-bottom: 16%;
+  text-shadow: rgba(0, 0, 0, 0.849) 0.1em 0.1em 0.2em;
+  box-shadow: rgba(0, 0, 0, 0.623) 0.2em 0.2em 0.2em;
 }
 
-.titulo{
-    font-family: raleway;
-    padding-top: 80px;
-    font-size: 50px;
-    padding-left: 6%;
-    padding-right: 35%; 
-    padding-bottom: 20px;
-}
-
-.fbotao-plus{
-    font-family: raleway;
-    font-size: 18px;
-    color: black;
-    border:none;
-    cursor: pointer;
-    margin-left: 15%;
-    height: 60px;
-    width:300px;
-    line-height: 30px;
-    border-radius: 30px;
-    background: linear-gradient(135deg, red, orange, yellow, green, blue, violet);
-    margin-bottom: 16%;
-}
-
-.fbotao-plus:hover{
-    background: linear-gradient(135deg, red, orange, yellow, green, blue, violet);
-    opacity: 0.8;
+.fbotao-plus:hover {
+  background: linear-gradient(135deg, red, orange, yellow, green, blue, violet);
+  opacity: 0.8;
 }
