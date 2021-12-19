@@ -17,8 +17,8 @@
 
 #botao-voltar {
   position: absolute;
-  margin-top: 0px;
-  margin-left: 30%;
+  margin-top: 2px;
+  margin-left: 27%;
   padding: 20px;
   font-size: 25px;
   float: left;
@@ -49,7 +49,7 @@
 #botao-avancar {
   position: absolute;
   margin-top: 0px;
-  margin-left: 66%;
+  margin-left: 70%;
   padding: 20px;
   font-size: 25px;
   float: left;
