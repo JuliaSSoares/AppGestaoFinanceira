@@ -10,3 +10,5 @@ $signature = base64UrlEncode(
         hash_hmac('sha256', $header.'.'.$payload, 'token', true)
 );
 echo $header.'.'.$payload.'.'.$signature;
+
+// Só não conseguimos integrar com o nosso aplicativo

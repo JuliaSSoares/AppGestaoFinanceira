@@ -22,3 +22,5 @@
         }else{ 
             echo 'Token inválido';
         }
+
+    // Só não conseguimos integrar com o nosso aplicativo
