@@ -22,26 +22,34 @@ h1 {
 }
 
 form {
-  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 520px;
   font-size: 18px;
-  border-radius: 1em;
-  padding: 10px;
-  margin-top: 20px;
-  margin-left: 36%;
 
 }
 
+#container_radio{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-around !important;
+  align-items: flex-start !important;
+}
+
+
+
 .botaoEnviar {
   color: rgb(255, 255, 255);
-  background-color: #f8b84a48;
+  background-color: #f8b84a94;
   width: 200px;
   border-radius: 1em;
   border: 0;
   font-size: 17px;
   font-weight: bold;
-  text-shadow: rgba(0, 0, 0, 0.527) 0.1em 0.1em 0.2em;
-  margin-left: 15%;
+  text-shadow: rgba(0, 0, 0, 0.247) 0.1em 0.1em 0.2em;
+
 }
 
 .botaoEnviar:hover {
@@ -88,12 +96,4 @@ input:focus, input:focus {
     outline: 0;
     background-color: transparent;
     color: rgba(0, 0, 0, 0.925);
-}
-
-
-.estiloInput:-webkit-autofill {
-    -webkit-text-fill-color: rgb(20, 20, 20) !important;
-    -webkit-transition: "color 9999s ease-out, background-color 9999s ease-out";
-    -webkit-transition-delay: 9999s;
-
 }

@@ -17,8 +17,8 @@
 
 #botao-voltar {
   position: absolute;
-  margin-top: 0px;
-  margin-left: 30%;
+  margin-top: 2px;
+  margin-left: 27%;
   padding: 20px;
   font-size: 25px;
   float: left;
@@ -38,10 +38,32 @@
 }
 
 #informacoes_usuario {
+  display: flex;
   font-size: 18px;
   color: rgba(0, 0, 0, 0.575);
-  display: flex;
   width: 40%;
-  margin-left: 31%;
+  margin-left: 30%;
   justify-content: space-between;
+}
+
+#botao-avancar {
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 70%;
+  padding: 20px;
+  font-size: 25px;
+  float: left;
+  z-index: 2;
+}
+
+#botao-avancar {
+  color: white;
+  text-shadow: rgba(0, 0, 0, 0.582) 0.1em 0.1em 0.2em;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#botao-avancar:hover {
+  color: rgba(255, 255, 255, 0.301);
 }

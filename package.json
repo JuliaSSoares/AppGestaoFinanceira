@@ -20,10 +20,9 @@
   "homepage": "https://github.com/JuliaSSoares/AppGestaoFinanceira#readme",
   "dependencies": {
     "body-parser": "^1.19.1",
-    "express": "^4.17.1",
+    "express": "^4.17.2",
     "hbs": "^4.2.0",
     "nodemon": "^2.0.15",
-    "sqlite": "^4.0.23",
     "sqlite3": "^5.0.2"
   }
 }
