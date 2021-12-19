@@ -5,7 +5,7 @@ function base64UrlEncode($data){
 }
 
 $header = base64UrlEncode('{"alg": "HS256", "typ": "JWT"}');
-$payload = base64UrlEncode('{"sub": "'.  md5(time()).'", "name": "Ruan Marques", "iat": '.time().'}');
+$payload = base64UrlEncode('{"sub": "'.  md5(time()).'", "nome": "Ruan Marques", "iat": '.time().'}');
 $signature = base64UrlEncode(
         hash_hmac('sha256', $header.'.'.$payload, 'token', true)
 );
