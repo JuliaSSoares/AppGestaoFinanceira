@@ -27,13 +27,16 @@ router.get('/cadastro', (req, res) => res.render("cadastro"))
 router.post('/cadastro', (req, res, next) => {
 
     const query = /*sql*/ `
-      INSERT INTO ClIENTE (NOME, CPF, EMAIL, SENHA)
+      INSERT INTO CLIENTE (NOME, CPF, EMAIL, SENHA)
     VALUES (?, ?, ?, ?) `
+
     db.run(query, [req.body.nome, req.body.cpf, req.body.email, req.body.senha],  err => {
         if (err) {
             console.log(err.message);
             return next(err);
         }
+
+        inserirConta()
         res.redirect("login")
     })
 });
@@ -71,5 +74,24 @@ router.get('/encerramento', (req, res) => res.render("encerramento"))
 
 //Renderiza a página Equipe
 router.get('/equipe', (req, res) => res.render("equipe"))
+
+
+
+
+// Função para inserir na tabela CONTA as informações, ficará condicionada ao sucesso da função de inserção na tabela CLIENTE
+function inserirConta() {
+
+    const query = /*sql*/ `
+    INSERT INTO CONTA (IDCLIENTE)
+    SELECT IDCLIENTE FROM CLIENTE ORDER BY IDCLIENTE DESC LIMIT 1
+    `
+
+    db.run(query,  err => {
+        if (err) {
+            console.log(err.message);
+            return(err)
+        }
+    })
+}
 
 module.exports = router
