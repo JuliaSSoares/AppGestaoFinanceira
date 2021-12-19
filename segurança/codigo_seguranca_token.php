@@ -1,3 +1,7 @@
+<?php
+
+
+
 function base64UrlEncode($data)
 {
     return str_replace(['+', '/', '='], ['-','_',''], base64_encode($data));
