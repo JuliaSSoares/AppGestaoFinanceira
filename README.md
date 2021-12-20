@@ -47,6 +47,8 @@
   <img src="public-assets/imagens/diagrama_db.jpeg"> 
   </div>
   
+  <br><br>
+  <hr>
   
   
   <h3 align="center">Organização</h3><br>
@@ -82,8 +84,8 @@
   <a href=" "> <img width="30px"
          src="public-assets/imagens/icones/instagram.png"></a>
    <br>
-   <br>
-    <p> Foi para mim uma experiência estimulante que colocou à prova os meus conhecimentos e me deu uma noção  muito mais alargada do que é trabalho em equipe em uma grande corporação. O principal aprendizado foi a nível das dificuldades que surgem no meio de uma equipe constituída por diferentes personalidades e formas de encarar dificuldades em que temos de manter bom senso e nos sabermos movimentar da melhor forma.</p>
+     <br>
+    <p>"	Foi para mim uma experiência estimulante que colocou à prova os meus conhecimentos e me deu uma noção  muito mais alargada do que é trabalho em equipe em uma grande corporação. O principal aprendizado foi a nível das dificuldades que surgem no meio de uma equipe constituída por diferentes personalidades e formas de encarar dificuldades em que temos de manter bom senso e nos sabermos movimentar da melhor forma."</p>
    <br>
 
   <b>Helena Fonseca</b><br><br>
