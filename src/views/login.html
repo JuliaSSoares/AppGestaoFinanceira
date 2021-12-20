@@ -48,14 +48,14 @@
         <div class="form-group">
           <div id="formlog" class="form text-white">
             <h4>Acesse sua conta</h4>     
-              <form>      
+              <form method="get" action="">      
                 <div class="form-outline mb-4">
                   <input type="email" class="form-control" name="email" id="email" placeholder="E-mail cadastrado" required></input>      
                   <div id="email-validation" class="invalid-feedback">Verifique o e-mail informado.</div>       
                   <div id="email-validation" class="valid-feedback">E-mail válido.</div>                       
                 </div>      
                 <div class="form-outline mb-4">
-                  <input type="password" class="form-control" name="password" id="password" placeholder="Senha cadastrada" required></input>
+                  <input type="password" class="form-control" name="senha" id="password" placeholder="Senha cadastrada" required></input>
                   <div class="invalid-feedback">Verifique sua senha.</div>
                   <div class="valid-feedback">Senha válida.</div>
                 </div>                        
@@ -71,7 +71,7 @@
                   </div>            
                 </div>                   -->
                   <div class="input-group mt5 mb-1">
-                    <input type='submit' id="botao" value="Entrar" formaction='meus_lancamentos' class='btn btn-primary theme-btn  w-100'></input>        
+                    <input type='submit' id="botao" name='acao' value="Entrar" class='btn btn-primary theme-btn  w-100'></input>        
                   </div>                          
                 <div class="row mb-4"></div>
                 <div class="col d-flex justify-content-center fw-bold fs-6"></div>         			 

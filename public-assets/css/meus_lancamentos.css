@@ -141,3 +141,16 @@ h2 {
     height: 18px;
     font-size: 15px;
 }
+
+.semLancamentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10% 0px 10%;
+    height: 300px;
+    border: 2px dotted rgba(46, 46, 46, 0.322);
+    border-radius: 1em;
+    font-size: 35px;
+    background-color: rgba(83, 83, 83, 0.034);
+    
+}

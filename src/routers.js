@@ -41,18 +41,34 @@ router.post('/cadastro', (req, res, next) => {
 //Renderiza a página Login
 router.get('/login', (req, res) => res.render("login"))
 
-router.post('/login', (req, res) => res.render("login"))
+
+// router.get("/login", (req, res, next) => {
+//   const query = /*sql*/`
+//     SELECT email, senha
+//     FROM cliente 
+//     WHERE (email LIKE ? AND senha LIKE ? )
+//     `;
+
+
+//     if (db.all(query, (err) => {
+//         if (err) {
+//           console.log(err.message);
+//           return next(err);
+//         }
+//          res.redirect("meus_lancamentos");
+//       };
+// });
 
 //Renderiza a página Novo Lançamento
 router.get('/novo_lancamento', (req, res) => res.render("novo_lancamento"))
 
 //Insere no Banco de Dados as informações preenchidas pelo usuário nos formulários da página Novo Lançamento
 router.post('/novo_lancamento', (req, res, next) => {
-    const query = /*sql*/`
-    INSERT INTO TRANSACAO (DESCRICAO, VALOR, DATE, TIPO)
+    const query = /*sql*/ `
+    INSERT INTO TRANSACAO (DESCRICAO, VALOR, DATATRANSACAO, TIPO)
     VALUES (?, ?, ?, ?);
-    `
-    db.run(query, [req.body.descricao, req.body.valor, req.body.date, req.body.tipo], err => {
+    `;
+    db.run(query, [req.body.descricao, req.body.valor, req.body.data, req.body.tipo], err => {
         
         if (err) {
             console.log(err.message)
@@ -62,9 +78,25 @@ router.post('/novo_lancamento', (req, res, next) => {
     })
 });
 
+// //Renderiza a página Meus Lançamentos
+// router.get('/meus_lancamentos', (req, res) => res.render("meus_lancamentos"))
+
 //Renderiza a página Meus Lançamentos
-router.get('/meus_lancamentos', (req, res) => res.render("meus_lancamentos"))
-//router.post('/meus_lancamentos', (req, res) => res.render("meus_lancamentos"))
+router.get('/meus_lancamentos', (req, res, next) => {
+    const query = /*sql*/`
+    SELECT DESCRICAO, VALOR, DATATRANSACAO FROM TRANSACAO ORDER BY DATATRANSACAO DESC
+    `
+    db.all(query, (err, transacoes) => {
+      if (err) {
+        console.log(err.message);
+        return next(err);
+      }
+      console.log(transacoes)
+      res.render("meus_lancamentos", {transacoes});
+    })
+    
+})
+
 
 //Renderiza a página Encerramento
 router.get('/encerramento', (req, res) => res.render("encerramento"))
