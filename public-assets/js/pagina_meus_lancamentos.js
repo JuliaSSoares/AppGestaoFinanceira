@@ -8,7 +8,7 @@ function mudaCorAddR$() {
     for (var j = 1, col; (col = row.cells[j]); j += 4) {
       valor = col.innerHTML;
       console.log(valor);
-      if (valor > 0) {
+      if (valor >= 0) {
         row.classList.add("green");
       } else {
         row.classList.add("red");

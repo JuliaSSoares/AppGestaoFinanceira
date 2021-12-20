@@ -86,12 +86,13 @@
                         <th>Data</th>
                     </tr>
                 </thead>
-                <tbody class="tbody">
+
+                <tbody class="tbody" id = "">
                     {{#each transacoes}}
                     <tr>
-                        <td>{{this.titulo}}</td>
-                        <td>{{this.valor}}</td>
-                        <td>{{this.date}}</td>
+                        <td>{{this.DESCRICAO}}</td>
+                        <td>{{this.VALOR}}</td>
+                        <td>{{this.DATATRANSACAO}}</td>
                     </tr>
                     {{/each}}
 

@@ -76,6 +76,7 @@ router.get('/meus_lancamentos', (req, res, next) => {
             return next(err)
         }
 
+        console.log(transacoes[0].DESCRICAO)
         res.render("meus_lancamentos", {transacoes})
     })
 })
