@@ -54,10 +54,10 @@
         <a href="meus_lancamentos" id="botao-avancar"><i class="fas fa-arrow-alt-circle-right"></i></a>
         <h1 class="fundoArcoIrisTitulo"> Novo Lançamento </h1><br>
     </div>
-    <div id="informacoes_usuario">
+    <!-- <div id="informacoes_usuario">
         <p>Julia Soares</p>
         <p>Agência: 4110 &nbsp;&nbsp;Conta: 23451-1 </p>
-    </div>
+    </div> -->
 
 
     <form id="form" method="POST" action="/novo_lancamento" autocomplete="off">
@@ -71,7 +71,7 @@
             <br>
 
             <label for="">Valor do lançamento:   </label>
-            <input id="valorLancamento" placeholder="Ex. 1800,00" class="estiloInput" name="valor" type="text" class="form-control" onkeypress="$(this).mask('000000000,00', {reverse: true});" required><p id="mensagemErro"></p>
+            <input id="valorLancamento" placeholder="Ex. 1800.00" class="estiloInput" name="valor" type="text" class="form-control" required><p id="mensagemErro"></p>
             <br>
         </div>
 
