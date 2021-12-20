@@ -82,12 +82,12 @@ function replace(){
     var valorTotalBusca = document.querySelector("#valorTotal");
     var valorTotal = valorTotalBusca.innerHTML.replace(".", ",");
     if (valorTotal < 0){
-        valorTotalBusca.classList.add("green");
+        valorTotalBusca.classList.add("red");
     }
     valorTotal.replace('.',',');
     if(valorTotal.indexOf(',') == -1){
-        valorTotalBusca.innerHTML = valorTotal + ",00";
+        valorTotalBusca.innerHTML = "R$ " + valorTotal + ",00";
     }else
-    valorTotalBusca.innerHTML = valorTotal;
+    valorTotalBusca.innerHTML = "R$ " + valorTotal;
     
 }
