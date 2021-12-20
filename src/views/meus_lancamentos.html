@@ -87,37 +87,13 @@
                     </tr>
                 </thead>
                 <tbody class="tbody">
+                    {{#each transacoes}}
                     <tr>
-                        <td>Netflix</td>
-                        <td>-39.90</td>
-                        <td>01/08/2021</td>
-                    
+                        <td>{{this.titulo}}</td>
+                        <td>{{this.valor}}</td>
+                        <td>{{this.date}}</td>
                     </tr>
-                    <tr>
-                        <td>Água</td>
-                        <td>-60.50</td>
-                        <td>03/08/2021</td>
-                        
-                        
-                    </tr>
-                    <tr>
-                        <td>Salário</td>
-                        <td>5000.00</td>
-                        <td>05/12/2021</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>Luz</td>
-                        <td>-60.50</td>
-                        <td>03/08/2021</td>
-                        
-                    </tr>
-                    <tr>
-                        <td>Venda do celular</td>
-                        <td>1800.50</td>
-                        <td>03/08/2021</td>
-                        
-                    </tr> 
+                    {{/each}}
 
                 </tbody>
             </table>
