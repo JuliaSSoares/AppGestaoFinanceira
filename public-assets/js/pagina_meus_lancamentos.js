@@ -1,10 +1,14 @@
 $(".datepicker").datepicker({ dateFormat: "dd/mm/yy" }).val();
 
+somaValores();
+
 mudaCorAddR$();
 
 mudaData();
 
 semLancamentos();
+
+replace();
 
 function mudaCorAddR$() {
   var table = document.getElementById("tabela");
@@ -18,7 +22,7 @@ function mudaCorAddR$() {
         row.classList.add("red");
         valor = valor * -1; 
         col.innerHTML =
-        "-" + "R$ " + valor;
+        "- " + "R$ " + valor;
       }
       
     }
@@ -56,4 +60,34 @@ function semLancamentos(){
     }
 }
 
+function somaValores(){
+    var exibidor = document.querySelector('#valorTotal')
+    var arrStr = [];
+    var table = document.getElementById("tabela");
+    for (var i = 1, row; (row = table.rows[i]); i++) {
+        for (var j = 1, col; (col = row.cells[j]); j += 4) {
+            valor = col.innerHTML.replace(",", ".");
+            arrStr.push(valor);        
+        }       
+    }        
+    const arrNum = arrStr.map((i) => Number(i));
+    var total = arrNum.reduce(function(total, numero){
+        return total + numero;
+        }, 0);
+    exibidor.innerHTML = total;
+}
 
+
+function replace(){
+    var valorTotalBusca = document.querySelector("#valorTotal");
+    var valorTotal = valorTotalBusca.innerHTML.replace(".", ",");
+    if (valorTotal < 0){
+        valorTotalBusca.classList.add("green");
+    }
+    valorTotal.replace('.',',');
+    if(valorTotal.indexOf(',') == -1){
+        valorTotalBusca.innerHTML = valorTotal + ",00";
+    }else
+    valorTotalBusca.innerHTML = valorTotal;
+    
+}
