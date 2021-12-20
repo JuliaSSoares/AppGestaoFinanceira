@@ -65,22 +65,23 @@ router.post('/novo_lancamento', (req, res, next) => {
 
 //Renderiza a página Meus Lançamentos
 router.get('/meus_lancamentos', (req, res, next) => {
-    const query = /*sql*/`
+    
+    //Mostra as transações 
+    const queryTransacoes = /*sql*/`
     SELECT DESCRICAO, VALOR, DATATRANSACAO FROM TRANSACAO ORDER BY DATATRANSACAO DESC
     `
 
-    db.all(query, (err, transacoes) => {
+    db.all(queryTransacoes, (err, transacoes) => {
         if (err)
         {
             console.log(err.message)
             return next(err)
         }
 
-        console.log(transacoes[0].DESCRICAO)
-        res.render("meus_lancamentos", {transacoes})
+        res.render("meus_lancamentos", ({transacoes}))
     })
+    //
 })
-
 
 //Renderiza a página Encerramento
 router.get('/encerramento', (req, res) => res.render("encerramento"))
@@ -104,6 +105,23 @@ function inserirConta() {
             console.log(err.message);
             return(err)
         }
+    })
+}
+
+//mostra o saldo
+function mostrarSaldo() {
+    const querySaldo = /*sql*/`
+    SELECT SUM(VALOR) FROM TRANSACAO
+    `
+
+    db.get(querySaldo, (err, saldo) => {
+        if (err)
+        {
+            console.log(err.message)
+            return (err)
+        }
+        console.log(saldo)
+        return
     })
 }
 
