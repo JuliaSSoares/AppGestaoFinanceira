@@ -58,7 +58,7 @@
             <h2>R$ 1.500,00</h2>
         </div>
 
-        <form class="inputs-data" autocomplete="off" id="form" method="POST">
+        <form class="inputs-data" autocomplete="off" id="form" method="GET">
             
                 <label for="dataInicial">Data inicial: &nbsp;</label>
                 <input name="dataInicial" type="text" class="datepicker" class="estiloInput" required />
@@ -86,8 +86,7 @@
                         <th>Data</th>
                     </tr>
                 </thead>
-
-                <tbody class="tbody" id = "">
+                <tbody class="tbody" id="">
                     {{#each transacoes}}
                     <tr>
                         <td>{{this.DESCRICAO}}</td>
@@ -96,18 +95,18 @@
                     </tr>
                     {{/each}}
 
-                </tbody>
+            </tbody>
             </table>
-            <br>
+
         </div >
-        <br>
+        <spam class="semLancamentos"></spam>
         <div id="container-button">
         <a id="lacamento_botao" href="novo_lancamento"><button id="botao_novo_lancamento">Novo lançamento </button></a>
 
 
 
         </div>
-        <br><br><br><br>
+        <br><br><br><br><br><br><br>
 
         <footer>
             <div class="container-footer1">
@@ -126,4 +125,13 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
         integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <!-- HandleBars Library-->
+    <script type="text/javascript"
+        src="http://cloud.github.com/downloads/wycats/handlebars.js/handlebars-1.0.rc.1.js"></script>
+    <!-- jQuery Library-->
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    
+    </html>
+
+    
 </html>

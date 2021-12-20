@@ -52,8 +52,8 @@ router.post('/novo_lancamento', (req, res, next) => {
     const query = /*sql*/`
     INSERT INTO TRANSACAO (DESCRICAO, VALOR, DATATRANSACAO, TIPO)
     VALUES (?, ?, ?, ?);
-    `
-    db.run(query, [req.body.descricao, req.body.valor, req.body.date, req.body.tipo], err => {
+    `;
+    db.run(query, [req.body.descricao, req.body.valor, req.body.data, req.body.tipo], err => {
         
         if (err) {
             console.log(err.message)
@@ -62,6 +62,9 @@ router.post('/novo_lancamento', (req, res, next) => {
         res.redirect("meus_lancamentos")
     })
 });
+
+// //Renderiza a página Meus Lançamentos
+// router.get('/meus_lancamentos', (req, res) => res.render("meus_lancamentos"))
 
 //Renderiza a página Meus Lançamentos
 router.get('/meus_lancamentos', (req, res, next) => {

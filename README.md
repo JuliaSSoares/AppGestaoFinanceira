@@ -51,6 +51,7 @@
   <a href=" "> <img width="30px"
          src="public-assets/imagens/icones/instagram.png"></a>
    <br>
+      <p>"Aprendi que valorizar o processo é mais importante do que finalizá-lo, me diverti muito, trabalhamos com base na honestidade, na simplicidade e na pró-atividade, pois sabemos que somos os principais protagonistas da nossa história. Demos pequenos passos, mas com grande motivação. Eu amo minha equipe porque todos nós pensamos que um por todos e todos por um!"</p>
    <br>
 
   <b> Rui Lagos</b><br><br>
