@@ -82,6 +82,9 @@
   <a href=" "> <img width="30px"
          src="public-assets/imagens/icones/instagram.png"></a>
    <br>
+   <br>
+    <p> Foi para mim uma experiência estimulante que colocou à prova os meus conhecimentos e me deu uma noção  muito mais alargada do que é trabalho em equipe em uma grande corporação. O principal aprendizado foi a nível das dificuldades que surgem no meio de uma equipe constituída por diferentes personalidades e formas de encarar dificuldades em que temos de manter bom senso e nos sabermos movimentar da melhor forma.</p>
+   <br>
 
   <b>Helena Fonseca</b><br><br>
    <img width="125px" src="https://media-exp1.licdn.com/dms/image/C4E03AQEfzePECd6Ovg/profile-displayphoto-shrink_800_800/0/1605757194810?e=1644451200&v=beta&t=TtYOTGTN-XyH78aAT91zxmN1cn5tabanMrUDXrA7CdY" >    &nbsp;
