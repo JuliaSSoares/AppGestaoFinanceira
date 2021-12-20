@@ -7,9 +7,24 @@
   font-family: "raleway";
 }
 
+body {
+  background: url(../imagens/encerramento.png) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+main{
+  text-align: center;
+  margin-top: 3%;
+  margin-left: 25%;
+
+}
+
 .texto-obrigado {
   margin-top: 2%;
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .texto-obrigadoa {
@@ -17,7 +32,8 @@
 }
 
 .imagem_pagina_inicial {
-  margin: 3%;
+  margin-top: 5%;
+  margin-bottom: 5%;
   height: 280px;
   width: 342px;
 }
@@ -26,4 +42,5 @@
   height: 35px;
   width: 158px;
   margin-bottom: 5%;
+  margin-top: 1%;
 }
