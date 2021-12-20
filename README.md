@@ -39,11 +39,21 @@
   <div align="center" >
   <img src="public-assets/imagens/front.jpeg"> 
   </div>
- 
-
+  
+  <hr>
+  <br>
   <h3 align="center">Diagrama do banco de dados</h3><br>
   <div align="center" >
   <img src="public-assets/imagens/diagrama_db.jpeg"> 
+  </div>
+  
+  
+  
+  <h3 align="center">Organização</h3><br>
+  <div align="center" >
+  <img width="700px" src="public-assets/imagens/Org.jpeg">
+    <br>
+  <img width="700px" src="public-assets/imagens/Org1.jpeg">
   </div>
   
   
@@ -81,6 +91,9 @@
          src="public-assets/imagens/icones/github.2.png" /></a> &nbsp;
   <a href=" "> <img width="30px"
          src="public-assets/imagens/icones/instagram.png"></a>
+   <br>
+   <br>
+    <p>"O projeto foi um desafio pela questão da integração entre back e front end, saio desse trabalho com muito mais compreensão sobre esse assunto."</p>
    <br>
 
   <b>Ruan Marques</b><br><br>
