@@ -1,4 +1,5 @@
 const express = require("express")
+const res = require("express/lib/response")
 const router = express.Router()
 const sqlite3 = require("sqlite3").verbose()
 
@@ -44,6 +45,22 @@ router.post('/cadastro', (req, res, next) => {
 //Renderiza a página Login
 router.get('/login', (req, res) => res.render("login"))
 
+router.post('/login', (req, res, next) => {
+    const query = /*sql*/`
+    SELECT IDCLIENTE FROM CLIENTE 
+    WHERE EMAIL LIKE ? AND SENHA LIKE ?
+    `
+    
+    db.get(query, [req.body.email, req.body.senha], err => {
+
+        if (err) {
+            console.log(err.message)
+            return next(err);
+        }
+        res.redirect("meus_lancamentos")
+    })
+})
+
 //Renderiza a página Novo Lançamento
 router.get('/novo_lancamento', (req, res) => res.render("novo_lancamento"))
 
@@ -61,10 +78,7 @@ router.post('/novo_lancamento', (req, res, next) => {
         }
         res.redirect("meus_lancamentos")
     })
-});
-
-// //Renderiza a página Meus Lançamentos
-// router.get('/meus_lancamentos', (req, res) => res.render("meus_lancamentos"))
+})
 
 //Renderiza a página Meus Lançamentos
 router.get('/meus_lancamentos', (req, res, next) => {
@@ -92,9 +106,6 @@ router.get('/encerramento', (req, res) => res.render("encerramento"))
 //Renderiza a página Equipe
 router.get('/equipe', (req, res) => res.render("equipe"))
 
-
-
-
 // Função para inserir na tabela CONTA as informações, ficará condicionada ao sucesso da função de inserção na tabela CLIENTE
 function inserirConta() {
 
@@ -108,23 +119,6 @@ function inserirConta() {
             console.log(err.message);
             return(err)
         }
-    })
-}
-
-//mostra o saldo
-function mostrarSaldo() {
-    const querySaldo = /*sql*/`
-    SELECT SUM(VALOR) FROM TRANSACAO
-    `
-
-    db.get(querySaldo, (err, saldo) => {
-        if (err)
-        {
-            console.log(err.message)
-            return (err)
-        }
-        console.log(saldo)
-        return
     })
 }
 

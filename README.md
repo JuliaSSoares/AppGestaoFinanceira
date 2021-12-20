@@ -30,6 +30,15 @@
   <h4>Back-end/Banco de dados : </h4> <p> Helena Fonseca, Esteban Gonzalez e Rui Lagos. </p>
 
 <br>
+  
+   <h3 align="center">Highlights 🌟 </h3><br>
+  <div align="center" >
+  <img src="public-assets/imagens/back.jpeg"> 
+  </div>
+  <br>
+  <div align="center" >
+  <img src="public-assets/imagens/front.jpeg"> 
+  </div>
  
 
   <h3 align="center">Diagrama do banco de dados</h3><br>
@@ -83,6 +92,7 @@
   <a href=" "> <img width="30px"
          src="public-assets/imagens/icones/instagram.png"></a>
   <br>
+    <p>"Cheguei ao fim desta jornada com um sentimento de dever cumprido. A colaboração entre o grupo foi essencial para o sucesso do Projeto!"</p>
   <br>
 
 
