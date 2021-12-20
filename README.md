@@ -83,6 +83,7 @@
   <a href=" "> <img width="30px"
          src="public-assets/imagens/icones/instagram.png"></a>
   <br>
+    <p>"Cheguei ao fim desta jornada com um sentimento de dever cumprido. A colaboração entre o grupo foi essencial para o sucesso do Projeto!"</p>
   <br>
 
 
