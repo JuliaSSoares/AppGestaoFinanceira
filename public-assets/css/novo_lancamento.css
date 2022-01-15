@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "raleway";
+  src: url("../raleway.ttf");
+}
+
+body {
+  font-family: "raleway" !important;
+  background-color: #ebe3e3 !important ;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  margin: 0;
+}
+
+h1 {
+  width: 60%;
+  margin-left: 30%;
+  color: rgb(61, 61, 61);
+  text-shadow: rgb(68, 68, 68) 0.1em 0.1em 0.2em;
+  text-align: center;
+  font-size: 32px !important;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 520px;
+  font-size: 18px;
+
+}
+
+#container_radio{
+  display: flex !important;
+  flex-direction: row;
+  justify-content: space-around !important;
+  align-items: flex-start !important;
+}
+
+
+
+.botaoEnviar {
+  color: rgb(255, 255, 255);
+  background-color: #f8b84a94;
+  width: 200px;
+  border-radius: 1em;
+  border: 0;
+  font-size: 17px;
+  font-weight: bold;
+  text-shadow: rgba(0, 0, 0, 0.247) 0.1em 0.1em 0.2em;
+
+}
+
+.botaoEnviar:hover {
+  color: rgba(255, 255, 255, 0.603);
+  background-color: #f8b84abb;
+}
+
+.botaoEnviar:active {
+  width: 198px;
+}
+
+.cabecalho {
+  margin: 10px 10px 10px 10px;
+}
+
+
+
+.display_check{
+    display: inline-block;
+}
+   
+.estiloInput{
+    background-color: rgba(255, 255, 255, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px dotted rgba(138, 138, 138, 0.863);
+    text-align: center;
+    height: 18px;
+    font-size: 19px;
+    width: 500px;
+    margin-left: 10px;
+
+}
+input{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    padding: 15px;
+}
+
+input:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    background-color: transparent;
+    color: rgba(0, 0, 0, 0.925);
+}

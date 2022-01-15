@@ -1,0 +1,29 @@
+{
+  "name": "appgestaofinanceira",
+  "version": "1.0.0",
+  "description": "<br>\r <h2> Nossa proposta </h2>\r <div>\r <p> 🔹 Desenvolver um aplicativo de gestão financeira pessoal </p>\r <p> 🔹 Com o design inspirado na temática LGBTQIA+\r   <img width=\"25px\" src=\"https://emojipedia-us.s3.amazonaws.com/source/skype/289/rainbow-flag_1f3f3-fe0f-200d-1f308.png\">\r   </p>\r </div>\r <br>\r <h2 > Nosso grupo </h2> <br>",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuliaSSoares/AppGestaoFinanceira.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JuliaSSoares/AppGestaoFinanceira/issues"
+  },
+  "homepage": "https://github.com/JuliaSSoares/AppGestaoFinanceira#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "hbs": "^4.2.0",
+    "nodemon": "^2.0.15",
+    "passport-local": "^1.0.0",
+    "sqlite3": "^5.0.2"
+  }
+}

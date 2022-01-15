@@ -1,0 +1,72 @@
+/* html, */
+@font-face {
+  font-family: "raleway";
+  src: url("../raleway.ttf");
+}
+
+body {
+  /* min-height: 100%; */
+  height: 100%;
+  width: 100%;
+  background: url(../imagens/01.jpg) center center no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "raleway" !important;
+}
+
+main {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  min-height: 400px;
+}
+
+#formlog {
+  background-color: rgba(0, 0, 0, 0.253);
+  backdrop-filter: blur(4px);
+  border-radius: 0.75em;
+  padding: 45px;
+  margin-top: 5%;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-shadow: 2px 2px #000000;
+}
+
+h3 {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h4 {
+  text-align: center;
+  text-shadow: 2px 2px #000000;
+  padding-bottom: 5%;
+}
+
+.navbar1 {
+  padding: 2%;
+  background-color: transparent;
+}
+
+.navbar-a {
+  color: black;
+}
+
+#botao{
+    border: 2px solid rgba(255, 255, 255, 0);
+    border-radius: 1em;
+    background-color: rgb(43, 90, 231);
+    text-shadow: 1px 1px 2px black;
+}
+
+
+#botao:hover{
+    border: 2px solid rgba(255, 255, 255, 0.123);
+    background-color: rgba(43, 90, 231, 0.692);
+}
+

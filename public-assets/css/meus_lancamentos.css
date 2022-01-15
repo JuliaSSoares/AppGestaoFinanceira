@@ -1,0 +1,156 @@
+@font-face {
+  font-family: "raleway";
+  src: url("../raleway.ttf");
+}
+
+* {
+  font-family: "raleway";
+}
+
+body {
+  background-color: #ebe3e3 !important ;
+}
+
+h1 {
+  width: 60%;
+  margin-left: 30%;
+  color: rgb(61, 61, 61);
+  text-shadow: rgb(68, 68, 68) 0.1em 0.1em 0.2em;
+  text-align: center;
+  font-size: 32px !important;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+
+
+#tabela{
+    width: 80%;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+
+
+#tabela thead{
+    background-color: rgba(79, 107, 0, 0.123);
+}
+
+#botao_novo_lancamento {
+  color: rgb(255, 255, 255);
+  background-color: #f8b74a;
+  height: 50px;
+  width: 200px;
+  border-radius: 100em;
+  border: 0;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-shadow: rgba(0, 0, 0, 0.226) 0.1em 0.1em 0.2em;
+}
+
+#botao_novo_lancamento:hover {
+  color: rgba(255, 255, 255, 0.568);
+  background-color: #f8b84abb;
+}
+
+#botao_novo_lancamento:active {
+  height: 49px;
+  width: 198px;
+}
+
+
+#subtitulo {
+  display: flex;
+  margin: 20px 20px 20px;
+  align-items: space-;
+  justify-content: center;
+  color: rgb(0, 0, 0);
+  height: 68px;
+  border-radius: 0.5em;
+  margin-left: 35%;
+  width: 30%;
+}
+
+#container-button {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+#lancamento_botao {
+  text-decoration: none;
+}
+
+.red {
+  color: red;
+}
+
+.green {
+  color: green;
+}
+
+.inputs-data{
+    display: flex;
+    justify-content: center;
+    text-shadow: rgba(0, 0, 0, 0.445) 0.1em 0.1em 0.2em;
+    font-size: 16px;
+}
+
+.inputs-data:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+
+.botaoBuscar{
+    color: rgb(255, 255, 255);
+    text-shadow: rgba(0, 0, 0, 0.514) 0.1em 0.1em 0.2em;
+    background-color: #f8b74a;
+    border-radius: 100em;
+    height: 28px;
+    width: 60px;
+    font-size: small;
+    border: none;
+    font-weight: bold;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.botaoBuscar:hover{
+    color: rgba(255, 255, 255, 0.568);
+    background-color: #f8b84abb;
+
+}
+
+.botaoBuscar:active{
+    height: 27px;
+    width: 59px;
+}
+
+.datepicker{
+    background-color: rgba(255, 255, 255, 0);
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid rgb(138, 138, 138);
+    text-align: center;
+    height: 18px;
+    font-size: 15px;
+}
+
+.semLancamentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 10% 0px 10%;
+    height: 300px;
+    border: 2px dotted rgba(46, 46, 46, 0.322);
+    border-radius: 1em;
+    font-size: 35px;
+    background-color: rgba(83, 83, 83, 0.034);
+    
+}
